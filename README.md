@@ -1,1 +1,1 @@
-# Wallmart-data-analysis
+# Walmart-data-analysis
