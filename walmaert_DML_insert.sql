@@ -388,1256 +388,582 @@ VALUES ('Ethan', 'Hall', 'ethan.hall@aol.com', '555-200-0123', '10000 Maple Stre
 
 
 -- Insert rows for the Products table
-
 INSERT INTO Products (ProductName, CategoryID, SupplierID, Price, StockQuantity, ReorderLevel) 
-VALUES ('Product A', 65, 61, 50.00, 200, 50);
+VALUES ('Product A', 1, 1, 50.00, 200, 50);
 INSERT INTO Products (ProductName, CategoryID, SupplierID, Price, StockQuantity, ReorderLevel) 
-VALUES ('Product B', 66, 62, 60.00, 150, 40);
+VALUES ('Product B', 2, 2, 60.00, 150, 40);
 INSERT INTO Products (ProductName, CategoryID, SupplierID, Price, StockQuantity, ReorderLevel) 
-VALUES ('Product C', 67, 63, 45.50, 180, 35);
+VALUES ('Product C', 3, 3, 45.50, 180, 35);
 INSERT INTO Products (ProductName, CategoryID, SupplierID, Price, StockQuantity, ReorderLevel) 
-VALUES ('Product D', 68, 64, 72.30, 220, 60);
+VALUES ('Product D', 4, 4, 72.30, 220, 60);
 INSERT INTO Products (ProductName, CategoryID, SupplierID, Price, StockQuantity, ReorderLevel) 
-VALUES ('Product E', 69, 65, 85.00, 100, 30);
+VALUES ('Product E', 5, 5, 85.00, 100, 30);
 INSERT INTO Products (ProductName, CategoryID, SupplierID, Price, StockQuantity, ReorderLevel) 
-VALUES ('Product F', 70, 66, 110.00, 80, 25);
+VALUES ('Product F', 6, 6, 110.00, 80, 25);
 INSERT INTO Products (ProductName, CategoryID, SupplierID, Price, StockQuantity, ReorderLevel) 
-VALUES ('Product G', 71, 67, 120.50, 150, 40);
+VALUES ('Product G', 7, 7, 120.50, 150, 40);
 INSERT INTO Products (ProductName, CategoryID, SupplierID, Price, StockQuantity, ReorderLevel) 
-VALUES ('Product H', 72, 68, 95.00, 300, 50);
+VALUES ('Product H', 8, 8, 95.00, 300, 50);
 INSERT INTO Products (ProductName, CategoryID, SupplierID, Price, StockQuantity, ReorderLevel) 
-VALUES ('Product I', 73, 69, 80.00, 500, 70);
+VALUES ('Product I', 9, 9, 80.00, 500, 70);
 INSERT INTO Products (ProductName, CategoryID, SupplierID, Price, StockQuantity, ReorderLevel) 
-VALUES ('Product J', 74, 70, 110.00, 150, 30);
+VALUES ('Product J', 10, 10, 110.00, 150, 30);
 INSERT INTO Products (ProductName, CategoryID, SupplierID, Price, StockQuantity, ReorderLevel) 
-VALUES ('Product K', 75, 71, 150.00, 200, 60);
+VALUES ('Product K', 11, 11, 150.00, 200, 60);
 INSERT INTO Products (ProductName, CategoryID, SupplierID, Price, StockQuantity, ReorderLevel) 
-VALUES ('Product L', 76, 72, 140.00, 180, 40);
+VALUES ('Product L', 12, 12, 140.00, 180, 40);
 INSERT INTO Products (ProductName, CategoryID, SupplierID, Price, StockQuantity, ReorderLevel) 
-VALUES ('Product M', 77, 73, 135.00, 220, 55);
+VALUES ('Product M', 13, 13, 135.00, 220, 55);
 INSERT INTO Products (ProductName, CategoryID, SupplierID, Price, StockQuantity, ReorderLevel) 
-VALUES ('Product N', 78, 74, 65.00, 190, 50);
+VALUES ('Product N', 14, 14, 65.00, 190, 50);
 INSERT INTO Products (ProductName, CategoryID, SupplierID, Price, StockQuantity, ReorderLevel) 
-VALUES ('Product O', 79, 75, 70.00, 160, 45);
+VALUES ('Product O', 15, 15, 70.00, 160, 45);
 INSERT INTO Products (ProductName, CategoryID, SupplierID, Price, StockQuantity, ReorderLevel) 
-VALUES ('Product P', 80, 76, 90.00, 240, 60);
+VALUES ('Product P', 16, 16, 90.00, 240, 60);
 INSERT INTO Products (ProductName, CategoryID, SupplierID, Price, StockQuantity, ReorderLevel) 
-VALUES ('Product Q', 81, 77, 85.00, 230, 55);
+VALUES ('Product Q', 17, 17, 85.00, 230, 55);
 INSERT INTO Products (ProductName, CategoryID, SupplierID, Price, StockQuantity, ReorderLevel) 
-VALUES ('Product R', 82, 78, 95.00, 210, 50);
+VALUES ('Product R', 18, 18, 95.00, 210, 50);
 INSERT INTO Products (ProductName, CategoryID, SupplierID, Price, StockQuantity, ReorderLevel) 
-VALUES ('Product S', 83, 79, 130.00, 270, 65);
+VALUES ('Product S', 19, 19, 130.00, 270, 65);
 INSERT INTO Products (ProductName, CategoryID, SupplierID, Price, StockQuantity, ReorderLevel) 
-VALUES ('Product T', 84, 80, 115.00, 150, 40);
+VALUES ('Product T', 20, 20, 115.00, 150, 40);
 INSERT INTO Products (ProductName, CategoryID, SupplierID, Price, StockQuantity, ReorderLevel) 
-VALUES ('Product U', 85, 72, 160.00, 200, 50);
+VALUES ('Product U', 21, 1, 160.00, 200, 50);
 INSERT INTO Products (ProductName, CategoryID, SupplierID, Price, StockQuantity, ReorderLevel) 
-VALUES ('Product V', 86, 73, 170.00, 180, 45);
+VALUES ('Product V', 22, 2, 170.00, 180, 45);
 INSERT INTO Products (ProductName, CategoryID, SupplierID, Price, StockQuantity, ReorderLevel) 
-VALUES ('Product W', 65, 74, 90.00, 230, 60);
+VALUES ('Product W', 1, 3, 90.00, 230, 60);
 INSERT INTO Products (ProductName, CategoryID, SupplierID, Price, StockQuantity, ReorderLevel) 
-VALUES ('Product X', 66, 75, 100.00, 220, 55);
+VALUES ('Product X', 2, 4, 100.00, 220, 55);
 INSERT INTO Products (ProductName, CategoryID, SupplierID, Price, StockQuantity, ReorderLevel) 
-VALUES ('Product Y', 67, 76, 80.00, 210, 50);
+VALUES ('Product Y', 3, 5, 80.00, 210, 50);
 INSERT INTO Products (ProductName, CategoryID, SupplierID, Price, StockQuantity, ReorderLevel) 
-VALUES ('Product Z', 68, 77, 120.00, 180, 45);
+VALUES ('Product Z', 4, 6, 120.00, 180, 45);
 
--- Continue generating more rows...
-
-INSERT INTO Products (ProductName, CategoryID, SupplierID, Price, StockQuantity, ReorderLevel) 
-VALUES ('Product AA', 69, 78, 75.00, 240, 60);
-INSERT INTO Products (ProductName, CategoryID, SupplierID, Price, StockQuantity, ReorderLevel) 
-VALUES ('Product AB', 70, 79, 95.00, 260, 65);
-INSERT INTO Products (ProductName, CategoryID, SupplierID, Price, StockQuantity, ReorderLevel) 
-VALUES ('Product AC', 71, 80, 115.00, 230, 50);
-INSERT INTO Products (ProductName, CategoryID, SupplierID, Price, StockQuantity, ReorderLevel) 
-VALUES ('Product AD', 72, 81, 135.00, 200, 50);
-INSERT INTO Products (ProductName, CategoryID, SupplierID, Price, StockQuantity, ReorderLevel) 
-VALUES ('Product AE', 73, 82, 140.00, 170, 45);
-INSERT INTO Products (ProductName, CategoryID, SupplierID, Price, StockQuantity, ReorderLevel) 
-VALUES ('Product AF', 74, 83, 150.00, 180, 40);
-INSERT INTO Products (ProductName, CategoryID, SupplierID, Price, StockQuantity, ReorderLevel) 
-VALUES ('Product AG', 75, 84, 160.00, 190, 50);
-INSERT INTO Products (ProductName, CategoryID, SupplierID, Price, StockQuantity, ReorderLevel) 
-VALUES ('Product AH', 76, 85, 170.00, 210, 60);
-INSERT INTO Products (ProductName, CategoryID, SupplierID, Price, StockQuantity, ReorderLevel) 
-VALUES ('Product AI', 77, 86, 180.00, 200, 55);
-INSERT INTO Products (ProductName, CategoryID, SupplierID, Price, StockQuantity, ReorderLevel) 
-VALUES ('Product AJ', 78, 72, 90.00, 250, 65);
-INSERT INTO Products (ProductName, CategoryID, SupplierID, Price, StockQuantity, ReorderLevel) 
-VALUES ('Product AK', 79, 73, 100.00, 220, 60);
-INSERT INTO Products (ProductName, CategoryID, SupplierID, Price, StockQuantity, ReorderLevel) 
-VALUES ('Product AL', 80, 74, 110.00, 200, 55);
-INSERT INTO Products (ProductName, CategoryID, SupplierID, Price, StockQuantity, ReorderLevel) 
-VALUES ('Product AM', 81, 75, 120.00, 190, 50);
-INSERT INTO Products (ProductName, CategoryID, SupplierID, Price, StockQuantity, ReorderLevel) 
-VALUES ('Product AN', 82, 76, 130.00, 230, 65);
-INSERT INTO Products (ProductName, CategoryID, SupplierID, Price, StockQuantity, ReorderLevel) 
-VALUES ('Product AO', 83, 77, 140.00, 210, 60);
-INSERT INTO Products (ProductName, CategoryID, SupplierID, Price, StockQuantity, ReorderLevel) 
-VALUES ('Product AP', 84, 78, 150.00, 180, 50);
-INSERT INTO Products (ProductName, CategoryID, SupplierID, Price, StockQuantity, ReorderLevel) 
-VALUES ('Product AQ', 85, 79, 160.00, 220, 65);
-INSERT INTO Products (ProductName, CategoryID, SupplierID, Price, StockQuantity, ReorderLevel) 
-VALUES ('Product AR', 86, 80, 170.00, 240, 70);
-INSERT INTO Products (ProductName, CategoryID, SupplierID, Price, StockQuantity, ReorderLevel) 
-VALUES ('Product AS', 65, 74, 180.00, 260, 75);
-INSERT INTO Products (ProductName, CategoryID, SupplierID, Price, StockQuantity, ReorderLevel) 
-VALUES ('Product AT', 66, 70, 190.00, 280, 80);
-INSERT INTO Products (ProductName, CategoryID, SupplierID, Price, StockQuantity, ReorderLevel) 
-VALUES ('Product AU', 67, 66, 200.00, 300, 90);
-INSERT INTO Products (ProductName, CategoryID, SupplierID, Price, StockQuantity, ReorderLevel) 
-VALUES ('Product AV', 68, 65, 210.00, 220, 70);
-INSERT INTO Products (ProductName, CategoryID, SupplierID, Price, StockQuantity, ReorderLevel) 
-VALUES ('Product AW', 69, 80, 220.00, 240, 80);
-INSERT INTO Products (ProductName, CategoryID, SupplierID, Price, StockQuantity, ReorderLevel) 
-VALUES ('Product AX', 70, 80, 230.00, 260, 85);
-
--- Insert rows for the Orders table
-
-INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (301, TO_TIMESTAMP('01-01-2025 10:00:00', 'DD-MM-YYYY HH24:MI:SS'), 500.00, 'Credit Card');
-INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (302, TO_TIMESTAMP('02-01-2025 14:30:00', 'DD-MM-YYYY HH24:MI:SS'), 700.00, 'Cash');
-INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (303, TO_TIMESTAMP('03-01-2025 09:00:00', 'DD-MM-YYYY HH24:MI:SS'), 650.00, 'Debit Card');
-INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (304, TO_TIMESTAMP('04-01-2025 11:45:00', 'DD-MM-YYYY HH24:MI:SS'), 800.00, 'PayPal');
-INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (305, TO_TIMESTAMP('05-01-2025 16:15:00', 'DD-MM-YYYY HH24:MI:SS'), 900.00, 'Credit Card');
-INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (306, TO_TIMESTAMP('06-01-2025 18:30:00', 'DD-MM-YYYY HH24:MI:SS'), 550.00, 'Cash');
-INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (307, TO_TIMESTAMP('07-01-2025 13:30:00', 'DD-MM-YYYY HH24:MI:SS'), 600.00, 'Debit Card');
-INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (308, TO_TIMESTAMP('08-01-2025 15:00:00', 'DD-MM-YYYY HH24:MI:SS'), 750.00, 'PayPal');
+--insert into orders
 INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (309, TO_TIMESTAMP('09-01-2025 10:15:00', 'DD-MM-YYYY HH24:MI:SS'), 650.00, 'Credit Card');
+VALUES (1, TO_TIMESTAMP('01-01-2025 10:00:00', 'DD-MM-YYYY HH24:MI:SS'), 500.00, 'Credit Card');
 INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (310, TO_TIMESTAMP('10-01-2025 17:30:00', 'DD-MM-YYYY HH24:MI:SS'), 700.00, 'Cash');
+VALUES (2, TO_TIMESTAMP('02-01-2025 14:30:00', 'DD-MM-YYYY HH24:MI:SS'), 700.00, 'Cash');
 INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (311, TO_TIMESTAMP('11-01-2025 12:00:00', 'DD-MM-YYYY HH24:MI:SS'), 500.00, 'Debit Card');
+VALUES (3, TO_TIMESTAMP('03-01-2025 09:00:00', 'DD-MM-YYYY HH24:MI:SS'), 650.00, 'Debit Card');
 INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (312, TO_TIMESTAMP('12-01-2025 14:00:00', 'DD-MM-YYYY HH24:MI:SS'), 650.00, 'PayPal');
+VALUES (4, TO_TIMESTAMP('04-01-2025 11:45:00', 'DD-MM-YYYY HH24:MI:SS'), 800.00, 'PayPal');
 INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (313, TO_TIMESTAMP('13-01-2025 09:15:00', 'DD-MM-YYYY HH24:MI:SS'), 700.00, 'Credit Card');
+VALUES (5, TO_TIMESTAMP('05-01-2025 16:15:00', 'DD-MM-YYYY HH24:MI:SS'), 900.00, 'Credit Card');
 INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (314, TO_TIMESTAMP('14-01-2025 11:30:00', 'DD-MM-YYYY HH24:MI:SS'), 800.00, 'Cash');
+VALUES (6, TO_TIMESTAMP('06-01-2025 18:30:00', 'DD-MM-YYYY HH24:MI:SS'), 550.00, 'Cash');
 INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (315, TO_TIMESTAMP('15-01-2025 16:45:00', 'DD-MM-YYYY HH24:MI:SS'), 600.00, 'Debit Card');
+VALUES (7, TO_TIMESTAMP('07-01-2025 13:30:00', 'DD-MM-YYYY HH24:MI:SS'), 600.00, 'Debit Card');
 INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (316, TO_TIMESTAMP('16-01-2025 13:00:00', 'DD-MM-YYYY HH24:MI:SS'), 750.00, 'PayPal');
+VALUES (8, TO_TIMESTAMP('08-01-2025 15:00:00', 'DD-MM-YYYY HH24:MI:SS'), 750.00, 'PayPal');
 INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (317, TO_TIMESTAMP('17-01-2025 10:30:00', 'DD-MM-YYYY HH24:MI:SS'), 850.00, 'Credit Card');
+VALUES (9, TO_TIMESTAMP('09-01-2025 10:15:00', 'DD-MM-YYYY HH24:MI:SS'), 650.00, 'Credit Card');
 INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (318, TO_TIMESTAMP('18-01-2025 11:45:00', 'DD-MM-YYYY HH24:MI:SS'), 650.00, 'Cash');
+VALUES (10, TO_TIMESTAMP('10-01-2025 17:30:00', 'DD-MM-YYYY HH24:MI:SS'), 700.00, 'Cash');
 INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (319, TO_TIMESTAMP('19-01-2025 14:00:00', 'DD-MM-YYYY HH24:MI:SS'), 700.00, 'Debit Card');
+VALUES (11, TO_TIMESTAMP('11-01-2025 12:00:00', 'DD-MM-YYYY HH24:MI:SS'), 500.00, 'Debit Card');
 INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (320, TO_TIMESTAMP('20-01-2025 09:00:00', 'DD-MM-YYYY HH24:MI:SS'), 500.00, 'PayPal');
+VALUES (12, TO_TIMESTAMP('12-01-2025 14:00:00', 'DD-MM-YYYY HH24:MI:SS'), 650.00, 'PayPal');
 INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (321, TO_TIMESTAMP('21-01-2025 16:30:00', 'DD-MM-YYYY HH24:MI:SS'), 600.00, 'Credit Card');
+VALUES (13, TO_TIMESTAMP('13-01-2025 09:15:00', 'DD-MM-YYYY HH24:MI:SS'), 700.00, 'Credit Card');
 INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (322, TO_TIMESTAMP('22-01-2025 18:00:00', 'DD-MM-YYYY HH24:MI:SS'), 700.00, 'Cash');
+VALUES (14, TO_TIMESTAMP('14-01-2025 11:30:00', 'DD-MM-YYYY HH24:MI:SS'), 800.00, 'Cash');
 INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (323, TO_TIMESTAMP('23-01-2025 13:30:00', 'DD-MM-YYYY HH24:MI:SS'), 650.00, 'Debit Card');
+VALUES (15, TO_TIMESTAMP('15-01-2025 16:45:00', 'DD-MM-YYYY HH24:MI:SS'), 600.00, 'Debit Card');
 INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (324, TO_TIMESTAMP('24-01-2025 17:15:00', 'DD-MM-YYYY HH24:MI:SS'), 750.00, 'PayPal');
--- Add more rows similarly up to 100...
+VALUES (16, TO_TIMESTAMP('16-01-2025 13:00:00', 'DD-MM-YYYY HH24:MI:SS'), 750.00, 'PayPal');
 INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (325, TO_TIMESTAMP('25-01-2025 09:30:00', 'DD-MM-YYYY HH24:MI:SS'), 600.00, 'Credit Card');
+VALUES (17, TO_TIMESTAMP('17-01-2025 10:30:00', 'DD-MM-YYYY HH24:MI:SS'), 850.00, 'Credit Card');
 INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (326, TO_TIMESTAMP('26-01-2025 10:45:00', 'DD-MM-YYYY HH24:MI:SS'), 850.00, 'Cash');
+VALUES (18, TO_TIMESTAMP('18-01-2025 11:45:00', 'DD-MM-YYYY HH24:MI:SS'), 650.00, 'Cash');
 INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (327, TO_TIMESTAMP('27-01-2025 11:00:00', 'DD-MM-YYYY HH24:MI:SS'), 750.00, 'Debit Card');
+VALUES (19, TO_TIMESTAMP('19-01-2025 14:00:00', 'DD-MM-YYYY HH24:MI:SS'), 700.00, 'Debit Card');
 INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (328, TO_TIMESTAMP('28-01-2025 12:15:00', 'DD-MM-YYYY HH24:MI:SS'), 600.00, 'PayPal');
+VALUES (20, TO_TIMESTAMP('20-01-2025 09:00:00', 'DD-MM-YYYY HH24:MI:SS'), 500.00, 'PayPal');
 INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (329, TO_TIMESTAMP('29-01-2025 13:30:00', 'DD-MM-YYYY HH24:MI:SS'), 700.00, 'Credit Card');
+VALUES (21, TO_TIMESTAMP('21-01-2025 11:15:00', 'DD-MM-YYYY HH24:MI:SS'), 600.00, 'Credit Card');
 INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (330, TO_TIMESTAMP('30-01-2025 14:45:00', 'DD-MM-YYYY HH24:MI:SS'), 800.00, 'Cash');
+VALUES (22, TO_TIMESTAMP('22-01-2025 13:45:00', 'DD-MM-YYYY HH24:MI:SS'), 750.00, 'Cash');
 INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (331, TO_TIMESTAMP('31-01-2025 15:00:00', 'DD-MM-YYYY HH24:MI:SS'), 750.00, 'Debit Card');
+VALUES (23, TO_TIMESTAMP('23-01-2025 16:30:00', 'DD-MM-YYYY HH24:MI:SS'), 700.00, 'Debit Card');
 INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (332, TO_TIMESTAMP('01-02-2025 16:00:00', 'DD-MM-YYYY HH24:MI:SS'), 900.00, 'PayPal');
+VALUES (24, TO_TIMESTAMP('24-01-2025 10:00:00', 'DD-MM-YYYY HH24:MI:SS'), 850.00, 'PayPal');
 INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (333, TO_TIMESTAMP('02-02-2025 17:30:00', 'DD-MM-YYYY HH24:MI:SS'), 650.00, 'Credit Card');
+VALUES (25, TO_TIMESTAMP('25-01-2025 14:30:00', 'DD-MM-YYYY HH24:MI:SS'), 650.00, 'Credit Card');
 INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (334, TO_TIMESTAMP('03-02-2025 18:00:00', 'DD-MM-YYYY HH24:MI:SS'), 700.00, 'Cash');
+VALUES (26, TO_TIMESTAMP('26-01-2025 09:45:00', 'DD-MM-YYYY HH24:MI:SS'), 500.00, 'Cash');
 INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (335, TO_TIMESTAMP('04-02-2025 09:30:00', 'DD-MM-YYYY HH24:MI:SS'), 750.00, 'Debit Card');
+VALUES (27, TO_TIMESTAMP('27-01-2025 12:00:00', 'DD-MM-YYYY HH24:MI:SS'), 600.00, 'Debit Card');
 INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (336, TO_TIMESTAMP('05-02-2025 10:45:00', 'DD-MM-YYYY HH24:MI:SS'), 850.00, 'PayPal');
+VALUES (28, TO_TIMESTAMP('28-01-2025 17:15:00', 'DD-MM-YYYY HH24:MI:SS'), 750.00, 'PayPal');
 INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (337, TO_TIMESTAMP('06-02-2025 11:00:00', 'DD-MM-YYYY HH24:MI:SS'), 600.00, 'Credit Card');
+VALUES (29, TO_TIMESTAMP('29-01-2025 15:00:00', 'DD-MM-YYYY HH24:MI:SS'), 800.00, 'Credit Card');
 INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (338, TO_TIMESTAMP('07-02-2025 12:15:00', 'DD-MM-YYYY HH24:MI:SS'), 700.00, 'Cash');
+VALUES (30, TO_TIMESTAMP('30-01-2025 10:30:00', 'DD-MM-YYYY HH24:MI:SS'), 700.00, 'Cash');
 INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (339, TO_TIMESTAMP('08-02-2025 13:30:00', 'DD-MM-YYYY HH24:MI:SS'), 650.00, 'Debit Card');
+VALUES (31, TO_TIMESTAMP('31-01-2025 11:45:00', 'DD-MM-YYYY HH24:MI:SS'), 550.00, 'Debit Card');
 INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (340, TO_TIMESTAMP('09-02-2025 14:45:00', 'DD-MM-YYYY HH24:MI:SS'), 750.00, 'PayPal');
+VALUES (32, TO_TIMESTAMP('01-02-2025 14:15:00', 'DD-MM-YYYY HH24:MI:SS'), 750.00, 'PayPal');
 INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (341, TO_TIMESTAMP('10-02-2025 15:00:00', 'DD-MM-YYYY HH24:MI:SS'), 600.00, 'Credit Card');
+VALUES (33, TO_TIMESTAMP('02-02-2025 09:00:00', 'DD-MM-YYYY HH24:MI:SS'), 850.00, 'Credit Card');
 INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (342, TO_TIMESTAMP('11-02-2025 16:00:00', 'DD-MM-YYYY HH24:MI:SS'), 800.00, 'Cash');
+VALUES (34, TO_TIMESTAMP('03-02-2025 16:30:00', 'DD-MM-YYYY HH24:MI:SS'), 500.00, 'Cash');
 INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (343, TO_TIMESTAMP('12-02-2025 17:30:00', 'DD-MM-YYYY HH24:MI:SS'), 750.00, 'Debit Card');
+VALUES (35, TO_TIMESTAMP('04-02-2025 10:45:00', 'DD-MM-YYYY HH24:MI:SS'), 600.00, 'Debit Card');
 INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (344, TO_TIMESTAMP('13-02-2025 18:00:00', 'DD-MM-YYYY HH24:MI:SS'), 650.00, 'PayPal');
+VALUES (36, TO_TIMESTAMP('05-02-2025 13:00:00', 'DD-MM-YYYY HH24:MI:SS'), 750.00, 'PayPal');
 INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (345, TO_TIMESTAMP('14-02-2025 09:30:00', 'DD-MM-YYYY HH24:MI:SS'), 700.00, 'Credit Card');
+VALUES (37, TO_TIMESTAMP('06-02-2025 11:15:00', 'DD-MM-YYYY HH24:MI:SS'), 700.00, 'Credit Card');
 INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (346, TO_TIMESTAMP('15-02-2025 10:45:00', 'DD-MM-YYYY HH24:MI:SS'), 850.00, 'Cash');
--- Continue adding more rows similarly...
+VALUES (38, TO_TIMESTAMP('07-02-2025 14:45:00', 'DD-MM-YYYY HH24:MI:SS'), 850.00, 'Cash');
 INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (347, TO_TIMESTAMP('16-02-2025 11:00:00', 'DD-MM-YYYY HH24:MI:SS'), 700.00, 'Debit Card');
+VALUES (39, TO_TIMESTAMP('08-02-2025 15:30:00', 'DD-MM-YYYY HH24:MI:SS'), 650.00, 'Debit Card');
 INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (348, TO_TIMESTAMP('17-02-2025 12:15:00', 'DD-MM-YYYY HH24:MI:SS'), 800.00, 'PayPal');
+VALUES (40, TO_TIMESTAMP('09-02-2025 10:00:00', 'DD-MM-YYYY HH24:MI:SS'), 550.00, 'PayPal');
 INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (349, TO_TIMESTAMP('18-02-2025 13:30:00', 'DD-MM-YYYY HH24:MI:SS'), 650.00, 'Credit Card');
+VALUES (41, TO_TIMESTAMP('10-02-2025 12:30:00', 'DD-MM-YYYY HH24:MI:SS'), 600.00, 'Credit Card');
 INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (350, TO_TIMESTAMP('19-02-2025 14:45:00', 'DD-MM-YYYY HH24:MI:SS'), 900.00, 'Cash');
+VALUES (42, TO_TIMESTAMP('11-02-2025 09:15:00', 'DD-MM-YYYY HH24:MI:SS'), 750.00, 'Cash');
 INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (351, TO_TIMESTAMP('20-02-2025 15:00:00', 'DD-MM-YYYY HH24:MI:SS'), 750.00, 'Debit Card');
+VALUES (43, TO_TIMESTAMP('12-02-2025 11:00:00', 'DD-MM-YYYY HH24:MI:SS'), 700.00, 'Debit Card');
 INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (352, TO_TIMESTAMP('21-02-2025 16:00:00', 'DD-MM-YYYY HH24:MI:SS'), 800.00, 'PayPal');
+VALUES (44, TO_TIMESTAMP('13-02-2025 13:45:00', 'DD-MM-YYYY HH24:MI:SS'), 850.00, 'PayPal');
 INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (353, TO_TIMESTAMP('22-02-2025 17:30:00', 'DD-MM-YYYY HH24:MI:SS'), 600.00, 'Credit Card');
+VALUES (45, TO_TIMESTAMP('14-02-2025 15:30:00', 'DD-MM-YYYY HH24:MI:SS'), 650.00, 'Credit Card');
 INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (354, TO_TIMESTAMP('23-02-2025 18:00:00', 'DD-MM-YYYY HH24:MI:SS'), 700.00, 'Cash');
+VALUES (46, TO_TIMESTAMP('15-02-2025 10:45:00', 'DD-MM-YYYY HH24:MI:SS'), 500.00, 'Cash');
 INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (355, TO_TIMESTAMP('24-02-2025 09:30:00', 'DD-MM-YYYY HH24:MI:SS'), 650.00, 'Debit Card');
+VALUES (47, TO_TIMESTAMP('16-02-2025 12:15:00', 'DD-MM-YYYY HH24:MI:SS'), 600.00, 'Debit Card');
 INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (356, TO_TIMESTAMP('25-02-2025 10:45:00', 'DD-MM-YYYY HH24:MI:SS'), 750.00, 'PayPal');
+VALUES (48, TO_TIMESTAMP('17-02-2025 14:00:00', 'DD-MM-YYYY HH24:MI:SS'), 750.00, 'PayPal');
 INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (357, TO_TIMESTAMP('26-02-2025 11:00:00', 'DD-MM-YYYY HH24:MI:SS'), 850.00, 'Credit Card');
+VALUES (49, TO_TIMESTAMP('18-02-2025 09:30:00', 'DD-MM-YYYY HH24:MI:SS'), 800.00, 'Credit Card');
 INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (358, TO_TIMESTAMP('27-02-2025 12:15:00', 'DD-MM-YYYY HH24:MI:SS'), 600.00, 'Cash');
+VALUES (50, TO_TIMESTAMP('19-02-2025 10:00:00', 'DD-MM-YYYY HH24:MI:SS'), 700.00, 'Cash');
 INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (359, TO_TIMESTAMP('28-02-2025 13:30:00', 'DD-MM-YYYY HH24:MI:SS'), 700.00, 'Debit Card');
+VALUES (51, TO_TIMESTAMP('20-02-2025 16:00:00', 'DD-MM-YYYY HH24:MI:SS'), 550.00, 'Debit Card');
 INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (360, TO_TIMESTAMP('01-03-2025 14:45:00', 'DD-MM-YYYY HH24:MI:SS'), 750.00, 'PayPal');
+VALUES (52, TO_TIMESTAMP('21-02-2025 14:30:00', 'DD-MM-YYYY HH24:MI:SS'), 750.00, 'PayPal');
 INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (361, TO_TIMESTAMP('02-03-2025 15:00:00', 'DD-MM-YYYY HH24:MI:SS'), 650.00, 'Credit Card');
+VALUES (53, TO_TIMESTAMP('22-02-2025 09:45:00', 'DD-MM-YYYY HH24:MI:SS'), 850.00, 'Credit Card');
 INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (362, TO_TIMESTAMP('03-03-2025 16:00:00', 'DD-MM-YYYY HH24:MI:SS'), 800.00, 'Cash');
+VALUES (54, TO_TIMESTAMP('23-02-2025 11:30:00', 'DD-MM-YYYY HH24:MI:SS'), 500.00, 'Cash');
 INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (363, TO_TIMESTAMP('04-03-2025 17:30:00', 'DD-MM-YYYY HH24:MI:SS'), 750.00, 'Debit Card');
+VALUES (55, TO_TIMESTAMP('24-02-2025 13:00:00', 'DD-MM-YYYY HH24:MI:SS'), 600.00, 'Debit Card');
 INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (364, TO_TIMESTAMP('05-03-2025 18:00:00', 'DD-MM-YYYY HH24:MI:SS'), 650.00, 'PayPal');
+VALUES (56, TO_TIMESTAMP('25-02-2025 12:45:00', 'DD-MM-YYYY HH24:MI:SS'), 750.00, 'PayPal');
 INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (365, TO_TIMESTAMP('06-03-2025 09:30:00', 'DD-MM-YYYY HH24:MI:SS'), 700.00, 'Credit Card');
+VALUES (57, TO_TIMESTAMP('26-02-2025 10:15:00', 'DD-MM-YYYY HH24:MI:SS'), 700.00, 'Credit Card');
 INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (366, TO_TIMESTAMP('07-03-2025 10:45:00', 'DD-MM-YYYY HH24:MI:SS'), 850.00, 'Cash');
+VALUES (58, TO_TIMESTAMP('27-02-2025 14:15:00', 'DD-MM-YYYY HH24:MI:SS'), 850.00, 'Cash');
 INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (367, TO_TIMESTAMP('08-03-2025 11:00:00', 'DD-MM-YYYY HH24:MI:SS'), 750.00, 'Debit Card');
+VALUES (59, TO_TIMESTAMP('28-02-2025 09:00:00', 'DD-MM-YYYY HH24:MI:SS'), 650.00, 'Debit Card');
 INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (368, TO_TIMESTAMP('09-03-2025 12:15:00', 'DD-MM-YYYY HH24:MI:SS'), 600.00, 'PayPal');
+VALUES (60, TO_TIMESTAMP('01-03-2025 13:30:00', 'DD-MM-YYYY HH24:MI:SS'), 550.00, 'PayPal');
 INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (369, TO_TIMESTAMP('10-03-2025 13:30:00', 'DD-MM-YYYY HH24:MI:SS'), 700.00, 'Credit Card');
+VALUES (61, TO_TIMESTAMP('02-03-2025 11:45:00', 'DD-MM-YYYY HH24:MI:SS'), 600.00, 'Credit Card');
 INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (370, TO_TIMESTAMP('11-03-2025 14:45:00', 'DD-MM-YYYY HH24:MI:SS'), 800.00, 'Cash');
--- Continue adding more rows similarly...
+VALUES (62, TO_TIMESTAMP('03-03-2025 10:30:00', 'DD-MM-YYYY HH24:MI:SS'), 700.00, 'Cash');
 INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (371, TO_TIMESTAMP('12-03-2025 15:00:00', 'DD-MM-YYYY HH24:MI:SS'), 650.00, 'Debit Card');
+VALUES (63, TO_TIMESTAMP('04-03-2025 09:00:00', 'DD-MM-YYYY HH24:MI:SS'), 750.00, 'Debit Card');
 INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (372, TO_TIMESTAMP('13-03-2025 16:00:00', 'DD-MM-YYYY HH24:MI:SS'), 700.00, 'PayPal');
+VALUES (64, TO_TIMESTAMP('05-03-2025 14:15:00', 'DD-MM-YYYY HH24:MI:SS'), 800.00, 'PayPal');
 INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (373, TO_TIMESTAMP('14-03-2025 17:30:00', 'DD-MM-YYYY HH24:MI:SS'), 750.00, 'Credit Card');
+VALUES (65, TO_TIMESTAMP('06-03-2025 15:45:00', 'DD-MM-YYYY HH24:MI:SS'), 850.00, 'Credit Card');
 INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (374, TO_TIMESTAMP('15-03-2025 18:00:00', 'DD-MM-YYYY HH24:MI:SS'), 800.00, 'Cash');
+VALUES (66, TO_TIMESTAMP('07-03-2025 10:15:00', 'DD-MM-YYYY HH24:MI:SS'), 500.00, 'Cash');
 INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (375, TO_TIMESTAMP('16-03-2025 09:30:00', 'DD-MM-YYYY HH24:MI:SS'), 850.00, 'Debit Card');
+VALUES (67, TO_TIMESTAMP('08-03-2025 13:30:00', 'DD-MM-YYYY HH24:MI:SS'), 600.00, 'Debit Card');
 INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (376, TO_TIMESTAMP('17-03-2025 10:45:00', 'DD-MM-YYYY HH24:MI:SS'), 900.00, 'PayPal');
+VALUES (68, TO_TIMESTAMP('09-03-2025 12:45:00', 'DD-MM-YYYY HH24:MI:SS'), 750.00, 'PayPal');
 INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (377, TO_TIMESTAMP('18-03-2025 11:00:00', 'DD-MM-YYYY HH24:MI:SS'), 950.00, 'Credit Card');
+VALUES (69, TO_TIMESTAMP('10-03-2025 11:00:00', 'DD-MM-YYYY HH24:MI:SS'), 650.00, 'Credit Card');
 INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (378, TO_TIMESTAMP('19-03-2025 12:15:00', 'DD-MM-YYYY HH24:MI:SS'), 1000.00, 'Cash');
+VALUES (70, TO_TIMESTAMP('11-03-2025 09:30:00', 'DD-MM-YYYY HH24:MI:SS'), 700.00, 'Cash');
 INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (379, TO_TIMESTAMP('20-03-2025 13:30:00', 'DD-MM-YYYY HH24:MI:SS'), 1050.00, 'Debit Card');
+VALUES (71, TO_TIMESTAMP('12-03-2025 14:30:00', 'DD-MM-YYYY HH24:MI:SS'), 800.00, 'Debit Card');
 INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (380, TO_TIMESTAMP('21-03-2025 14:45:00', 'DD-MM-YYYY HH24:MI:SS'), 1100.00, 'PayPal');
+VALUES (72, TO_TIMESTAMP('13-03-2025 12:15:00', 'DD-MM-YYYY HH24:MI:SS'), 900.00, 'PayPal');
 INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (381, TO_TIMESTAMP('22-03-2025 15:00:00', 'DD-MM-YYYY HH24:MI:SS'), 1150.00, 'Credit Card');
+VALUES (73, TO_TIMESTAMP('14-03-2025 10:45:00', 'DD-MM-YYYY HH24:MI:SS'), 500.00, 'Credit Card');
 INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (382, TO_TIMESTAMP('23-03-2025 16:00:00', 'DD-MM-YYYY HH24:MI:SS'), 1200.00, 'Cash');
+VALUES (74, TO_TIMESTAMP('15-03-2025 11:15:00', 'DD-MM-YYYY HH24:MI:SS'), 600.00, 'Cash');
 INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (383, TO_TIMESTAMP('24-03-2025 17:30:00', 'DD-MM-YYYY HH24:MI:SS'), 1250.00, 'Debit Card');
+VALUES (75, TO_TIMESTAMP('16-03-2025 13:45:00', 'DD-MM-YYYY HH24:MI:SS'), 750.00, 'Debit Card');
 INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (384, TO_TIMESTAMP('25-03-2025 18:00:00', 'DD-MM-YYYY HH24:MI:SS'), 1300.00, 'PayPal');
+VALUES (76, TO_TIMESTAMP('17-03-2025 14:30:00', 'DD-MM-YYYY HH24:MI:SS'), 850.00, 'PayPal');
 INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (385, TO_TIMESTAMP('26-03-2025 09:30:00', 'DD-MM-YYYY HH24:MI:SS'), 1350.00, 'Credit Card');
+VALUES (77, TO_TIMESTAMP('18-03-2025 12:00:00', 'DD-MM-YYYY HH24:MI:SS'), 550.00, 'Credit Card');
 INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (386, TO_TIMESTAMP('27-03-2025 10:45:00', 'DD-MM-YYYY HH24:MI:SS'), 1400.00, 'Cash');
+VALUES (78, TO_TIMESTAMP('19-03-2025 10:30:00', 'DD-MM-YYYY HH24:MI:SS'), 700.00, 'Cash');
 INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (387, TO_TIMESTAMP('28-03-2025 11:00:00', 'DD-MM-YYYY HH24:MI:SS'), 1450.00, 'Debit Card');
+VALUES (79, TO_TIMESTAMP('20-03-2025 11:45:00', 'DD-MM-YYYY HH24:MI:SS'), 800.00, 'Debit Card');
 INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (388, TO_TIMESTAMP('29-03-2025 12:15:00', 'DD-MM-YYYY HH24:MI:SS'), 1500.00, 'PayPal');
+VALUES (80, TO_TIMESTAMP('21-03-2025 09:15:00', 'DD-MM-YYYY HH24:MI:SS'), 650.00, 'PayPal');
 INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (389, TO_TIMESTAMP('30-03-2025 13:30:00', 'DD-MM-YYYY HH24:MI:SS'), 1550.00, 'Credit Card');
+VALUES (81, TO_TIMESTAMP('22-03-2025 14:00:00', 'DD-MM-YYYY HH24:MI:SS'), 700.00, 'Credit Card');
 INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (390, TO_TIMESTAMP('31-03-2025 14:45:00', 'DD-MM-YYYY HH24:MI:SS'), 1600.00, 'Cash');
--- Continue adding more rows similarly...
+VALUES (82, TO_TIMESTAMP('23-03-2025 12:30:00', 'DD-MM-YYYY HH24:MI:SS'), 750.00, 'Cash');
 INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (391, TO_TIMESTAMP('01-04-2025 15:00:00', 'DD-MM-YYYY HH24:MI:SS'), 1650.00, 'Debit Card');
+VALUES (83, TO_TIMESTAMP('24-03-2025 10:15:00', 'DD-MM-YYYY HH24:MI:SS'), 850.00, 'Debit Card');
 INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (392, TO_TIMESTAMP('02-04-2025 16:00:00', 'DD-MM-YYYY HH24:MI:SS'), 1700.00, 'PayPal');
+VALUES (84, TO_TIMESTAMP('25-03-2025 11:45:00', 'DD-MM-YYYY HH24:MI:SS'), 950.00, 'PayPal');
 INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (393, TO_TIMESTAMP('03-04-2025 17:30:00', 'DD-MM-YYYY HH24:MI:SS'), 1750.00, 'Credit Card');
+VALUES (85, TO_TIMESTAMP('26-03-2025 13:30:00', 'DD-MM-YYYY HH24:MI:SS'), 600.00, 'Credit Card');
 INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (394, TO_TIMESTAMP('04-04-2025 18:00:00', 'DD-MM-YYYY HH24:MI:SS'), 1800.00, 'Cash');
+VALUES (86, TO_TIMESTAMP('27-03-2025 09:45:00', 'DD-MM-YYYY HH24:MI:SS'), 550.00, 'Cash');
 INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (395, TO_TIMESTAMP('05-04-2025 09:30:00', 'DD-MM-YYYY HH24:MI:SS'), 1850.00, 'Debit Card');
+VALUES (87, TO_TIMESTAMP('28-03-2025 10:30:00', 'DD-MM-YYYY HH24:MI:SS'), 700.00, 'Debit Card');
 INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (396, TO_TIMESTAMP('06-04-2025 10:45:00', 'DD-MM-YYYY HH24:MI:SS'), 1900.00, 'PayPal');
+VALUES (88, TO_TIMESTAMP('29-03-2025 14:15:00', 'DD-MM-YYYY HH24:MI:SS'), 800.00, 'PayPal');
 INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (397, TO_TIMESTAMP('07-04-2025 11:00:00', 'DD-MM-YYYY HH24:MI:SS'), 1950.00, 'Credit Card');
+VALUES (89, TO_TIMESTAMP('30-03-2025 12:45:00', 'DD-MM-YYYY HH24:MI:SS'), 900.00, 'Credit Card');
 INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (398, TO_TIMESTAMP('08-04-2025 12:15:00', 'DD-MM-YYYY HH24:MI:SS'), 2000.00, 'Cash');
+VALUES (90, TO_TIMESTAMP('31-03-2025 11:15:00', 'DD-MM-YYYY HH24:MI:SS'), 650.00, 'Cash');
 INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (399, TO_TIMESTAMP('09-04-2025 13:30:00', 'DD-MM-YYYY HH24:MI:SS'), 2050.00, 'Debit Card');
+VALUES (91, TO_TIMESTAMP('01-04-2025 13:30:00', 'DD-MM-YYYY HH24:MI:SS'), 750.00, 'Debit Card');
 INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (400, TO_TIMESTAMP('10-04-2025 14:45:00', 'DD-MM-YYYY HH24:MI:SS'), 2100.00, 'PayPal');
+VALUES (92, TO_TIMESTAMP('02-04-2025 10:00:00', 'DD-MM-YYYY HH24:MI:SS'), 500.00, 'PayPal');
 INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (301, TO_TIMESTAMP('11-04-2025 15:00:00', 'DD-MM-YYYY HH24:MI:SS'), 2150.00, 'Credit Card');
+VALUES (93, TO_TIMESTAMP('03-04-2025 14:45:00', 'DD-MM-YYYY HH24:MI:SS'), 850.00, 'Credit Card');
 INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (302, TO_TIMESTAMP('12-04-2025 16:00:00', 'DD-MM-YYYY HH24:MI:SS'), 2200.00, 'Cash');
+VALUES (94, TO_TIMESTAMP('04-04-2025 11:30:00', 'DD-MM-YYYY HH24:MI:SS'), 600.00, 'Cash');
 INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (303, TO_TIMESTAMP('13-04-2025 17:30:00', 'DD-MM-YYYY HH24:MI:SS'), 2250.00, 'Debit Card');
+VALUES (95, TO_TIMESTAMP('05-04-2025 09:15:00', 'DD-MM-YYYY HH24:MI:SS'), 700.00, 'Debit Card');
 INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (304, TO_TIMESTAMP('14-04-2025 18:00:00', 'DD-MM-YYYY HH24:MI:SS'), 2300.00, 'PayPal');
+VALUES (96, TO_TIMESTAMP('06-04-2025 12:00:00', 'DD-MM-YYYY HH24:MI:SS'), 900.00, 'PayPal');
 INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (305, TO_TIMESTAMP('15-04-2025 09:30:00', 'DD-MM-YYYY HH24:MI:SS'), 2350.00, 'Credit Card');
+VALUES (97, TO_TIMESTAMP('07-04-2025 14:30:00', 'DD-MM-YYYY HH24:MI:SS'), 550.00, 'Credit Card');
 INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (306, TO_TIMESTAMP('16-04-2025 10:45:00', 'DD-MM-YYYY HH24:MI:SS'), 2400.00, 'Cash');
+VALUES (98, TO_TIMESTAMP('08-04-2025 10:45:00', 'DD-MM-YYYY HH24:MI:SS'), 750.00, 'Cash');
 INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (307, TO_TIMESTAMP('17-04-2025 11:00:00', 'DD-MM-YYYY HH24:MI:SS'), 2450.00, 'Debit Card');
+VALUES (99, TO_TIMESTAMP('09-04-2025 11:15:00', 'DD-MM-YYYY HH24:MI:SS'), 800.00, 'Debit Card');
 INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (308, TO_TIMESTAMP('18-04-2025 12:15:00', 'DD-MM-YYYY HH24:MI:SS'), 2500.00, 'PayPal');
-INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (309, TO_TIMESTAMP('19-04-2025 13:30:00', 'DD-MM-YYYY HH24:MI:SS'), 2550.00, 'Credit Card');
-INSERT INTO Orders (CustomerID, OrderDate, TotalAmount, PaymentMethod)
-VALUES (310, TO_TIMESTAMP('20-04-2025 14:45:00', 'DD-MM-YYYY HH24:MI:SS'), 2600.00, 'Cash');
--- Continue adding more rows as needed
-
-
-
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (242, 265, 3, 50.00, 5.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (243, 266, 2, 60.00, 10.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (244, 267, 1, 70.00, 0.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (245, 268, 5, 55.00, 5.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (246, 269, 4, 60.00, 0.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (247, 270, 2, 75.00, 10.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (248, 271, 3, 80.00, 0.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (249, 272, 1, 90.00, 5.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (250, 273, 6, 65.00, 0.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (251, 274, 2, 85.00, 10.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (252, 275, 4, 95.00, 0.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (253, 276, 3, 50.00, 5.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (254, 277, 1, 60.00, 0.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (255, 278, 2, 70.00, 10.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (256, 279, 3, 55.00, 5.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (257, 280, 4, 60.00, 0.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (258, 281, 2, 75.00, 10.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (259, 282, 3, 80.00, 0.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (260, 283, 1, 90.00, 5.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (261, 284, 6, 65.00, 0.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (262, 285, 2, 85.00, 10.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (263, 286, 4, 95.00, 0.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (264, 287, 3, 50.00, 5.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (265, 288, 1, 60.00, 0.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (266, 289, 2, 70.00, 10.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (267, 290, 3, 55.00, 5.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (268, 291, 4, 60.00, 0.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (269, 292, 2, 75.00, 10.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (270, 293, 3, 80.00, 0.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (271, 300, 1, 90.00, 5.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (272, 301, 6, 65.00, 0.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (273, 302, 2, 85.00, 10.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (274, 303, 4, 95.00, 0.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (275, 304, 3, 50.00, 5.00);
--- Continue adding more rows as needed...
--- OrderID 242 has multiple products
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (242, 265, 3, 50.00, 5.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (242, 266, 2, 60.00, 10.00);
-
--- OrderID 243 has multiple products
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (243, 267, 1, 70.00, 0.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (243, 268, 5, 55.00, 5.00);
-
--- OrderID 244 has multiple products
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (244, 269, 4, 60.00, 0.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (244, 270, 2, 75.00, 10.00);
-
--- OrderID 245 has multiple products
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (245, 271, 3, 80.00, 0.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (245, 272, 1, 90.00, 5.00);
-
--- OrderID 246 has multiple products
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (246, 273, 6, 65.00, 0.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (246, 274, 2, 85.00, 10.00);
-
--- OrderID 247 has multiple products
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (247, 275, 4, 95.00, 0.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (247, 276, 3, 50.00, 5.00);
-
--- OrderID 248 has multiple products
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (248, 277, 1, 60.00, 0.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (248, 278, 2, 70.00, 10.00);
-
--- OrderID 249 has multiple products
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (249, 279, 3, 55.00, 5.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (249, 280, 4, 60.00, 0.00);
-
--- OrderID 250 has multiple products
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (250, 281, 2, 75.00, 10.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (250, 282, 3, 80.00, 0.00);
-
--- OrderID 251 has multiple products
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (251, 283, 1, 90.00, 5.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (251, 284, 6, 65.00, 0.00);
-
--- OrderID 252 has multiple products
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (252, 285, 2, 85.00, 10.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (252, 286, 4, 95.00, 0.00);
-
--- OrderID 253 has multiple products
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (253, 287, 3, 50.00, 5.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (253, 288, 1, 60.00, 0.00);
-
--- OrderID 254 has multiple products
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (254, 289, 2, 70.00, 10.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (254, 290, 3, 55.00, 5.00);
-
--- OrderID 255 has multiple products
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (255, 291, 4, 60.00, 0.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (255, 292, 2, 75.00, 10.00);
-
--- OrderID 256 has multiple products
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (256, 293, 3, 80.00, 0.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (256, 300, 1, 90.00, 5.00);
-
--- OrderID 257 has multiple products
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (257, 301, 6, 65.00, 0.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (257, 302, 2, 85.00, 10.00);
-
--- OrderID 258 has multiple products
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (258, 303, 4, 95.00, 0.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (258, 304, 3, 50.00, 5.00);
-
--- OrderID 259 has multiple products
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (259, 305, 1, 60.00, 0.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (259, 306, 2, 70.00, 10.00);
+VALUES (100, TO_TIMESTAMP('10-04-2025 13:00:00', 'DD-MM-YYYY HH24:MI:SS'), 650.00, 'PayPal');
 
--- OrderID 260 has multiple products
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (260, 307, 3, 55.00, 5.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (260, 308, 4, 60.00, 0.00);
-
--- Continue adding rows similarly for other OrderIDs...
--- OrderID 261 has multiple products
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (261, 309, 2, 75.00, 10.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (261, 310, 3, 80.00, 0.00);
 
--- OrderID 262 has multiple products
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (262, 311, 4, 90.00, 5.00);
 INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (262, 312, 2, 100.00, 10.00);
+VALUES (1, 1, 3, 50.00, 5.00);
 
--- OrderID 263 has multiple products
 INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (263, 313, 3, 110.00, 0.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (263, 314, 1, 120.00, 5.00);
+VALUES (2, 2, 2, 60.00, 10.00);
 
--- OrderID 264 has multiple products
 INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (264, 315, 4, 130.00, 0.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (264, 316, 2, 140.00, 10.00);
+VALUES (3, 3, 1, 70.00, 0.00);
 
--- OrderID 265 has multiple products
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (265, 317, 1, 150.00, 0.00);
 INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (265, 318, 3, 160.00, 5.00);
+VALUES (4, 4, 5, 55.00, 5.00);
 
--- OrderID 266 has multiple products
 INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (266, 319, 2, 170.00, 10.00);
+VALUES (5, 5, 4, 60.00, 0.00);
 INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (266, 320, 4, 180.00, 0.00);
+VALUES (6, 6, 3, 55.00, 7.00);
 
--- OrderID 267 has multiple products
 INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (267, 321, 5, 190.00, 5.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (267, 322, 3, 200.00, 0.00);
+VALUES (7, 7, 2, 65.00, 8.00);
 
--- OrderID 268 has multiple products
 INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (268, 323, 4, 210.00, 10.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (268, 324, 2, 220.00, 0.00);
+VALUES (8, 8, 4, 50.00, 4.00);
 
--- OrderID 269 has multiple products
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (269, 325, 3, 230.00, 5.00);
 INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (269, 326, 1, 240.00, 10.00);
+VALUES (9, 9, 1, 45.00, 2.00);
 
--- OrderID 270 has multiple products
 INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (270, 327, 2, 250.00, 0.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (270, 328, 3, 260.00, 5.00);
+VALUES (10, 10, 3, 60.00, 6.00);
 
--- OrderID 271 has multiple products
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (271, 329, 4, 270.00, 0.00);
 INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (271, 330, 5, 280.00, 10.00);
+VALUES (11, 11, 2, 70.00, 10.00);
 
--- OrderID 272 has multiple products
 INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (272, 331, 1, 290.00, 5.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (272, 332, 3, 300.00, 0.00);
+VALUES (12, 12, 5, 55.00, 5.00);
 
--- OrderID 273 has multiple products
 INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (273, 333, 2, 310.00, 10.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (273, 334, 4, 320.00, 0.00);
+VALUES (13, 13, 4, 65.00, 0.00);
 
--- OrderID 274 has multiple products
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (274, 335, 5, 330.00, 5.00);
 INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (274, 336, 2, 340.00, 10.00);
+VALUES (14, 14, 3, 50.00, 5.00);
 
--- OrderID 275 has multiple products
 INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (275, 337, 3, 350.00, 0.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (275, 338, 1, 360.00, 5.00);
+VALUES (15, 15, 2, 60.00, 7.00);
 
--- OrderID 276 has multiple products
+-- Continue incrementing OrderID and cycling ProductID from 1 to 26
 INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (276, 339, 4, 370.00, 0.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (276, 340, 2, 380.00, 10.00);
+VALUES (16, 16, 1, 70.00, 0.00);
 
--- Continue adding rows for other orders...
--- OrderID 277 has multiple products
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (277, 341, 3, 390.00, 5.00);
 INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (277, 342, 2, 400.00, 0.00);
+VALUES (17, 17, 3, 55.00, 6.00);
 
--- OrderID 278 has multiple products
 INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (278, 343, 5, 410.00, 10.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (278, 344, 4, 420.00, 5.00);
+VALUES (18, 18, 2, 60.00, 9.00);
 
--- OrderID 279 has multiple products
 INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (279, 345, 3, 430.00, 0.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (279, 346, 2, 440.00, 10.00);
+VALUES (19, 19, 4, 45.00, 3.00);
 
--- OrderID 280 has multiple products
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (280, 347, 1, 450.00, 5.00);
 INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (280, 348, 4, 460.00, 0.00);
+VALUES (20, 20, 3, 50.00, 0.00);
 
--- OrderID 281 has multiple products
 INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (281, 349, 5, 470.00, 5.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (281, 350, 3, 480.00, 10.00);
+VALUES (21, 21, 5, 60.00, 5.00);
 
--- OrderID 282 has multiple products
 INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (282, 351, 4, 490.00, 0.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (282, 352, 2, 500.00, 5.00);
+VALUES (22, 22, 4, 55.00, 7.00);
 
--- OrderID 283 has multiple products
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (283, 353, 3, 510.00, 10.00);
 INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (283, 354, 5, 520.00, 0.00);
+VALUES (23, 23, 3, 70.00, 6.00);
 
--- OrderID 284 has multiple products
 INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (284, 355, 2, 530.00, 5.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (284, 356, 4, 540.00, 0.00);
+VALUES (24, 24, 2, 65.00, 0.00);
 
--- OrderID 285 has multiple products
 INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (285, 357, 1, 550.00, 10.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (285, 358, 3, 560.00, 5.00);
+VALUES (25, 25, 4, 50.00, 4.00);
 
--- OrderID 286 has multiple products
 INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (286, 359, 4, 570.00, 0.00);
+VALUES (26, 26, 1, 45.00, 2.00);
 INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (286, 360, 2, 580.00, 5.00);
+VALUES (27, 1, 3, 60.00, 5.00);
 
--- OrderID 287 has multiple products
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (287, 361, 5, 590.00, 0.00);
 INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (287, 362, 3, 600.00, 10.00);
+VALUES (28, 2, 2, 70.00, 0.00);
 
--- OrderID 288 has multiple products
 INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (288, 363, 2, 610.00, 5.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (288, 364, 4, 620.00, 0.00);
+VALUES (29, 3, 4, 55.00, 7.00);
 
--- OrderID 289 has multiple products
 INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (289, 365, 1, 630.00, 10.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (289, 366, 3, 640.00, 5.00);
+VALUES (30, 4, 1, 65.00, 4.00);
 
--- OrderID 290 has multiple products
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (290, 367, 4, 650.00, 0.00);
 INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (290, 368, 2, 660.00, 10.00);
+VALUES (31, 5, 2, 50.00, 6.00);
 
--- OrderID 291 has multiple products
 INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (291, 369, 3, 670.00, 5.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (291, 370, 1, 680.00, 0.00);
+VALUES (32, 6, 3, 55.00, 5.00);
 
--- OrderID 292 has multiple products
 INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (292, 371, 2, 690.00, 10.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (292, 372, 4, 700.00, 5.00);
+VALUES (33, 7, 4, 60.00, 2.00);
 
--- Continue adding rows for other orders...
--- OrderID 293 has random products
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (293, 276, 3, 310.00, 5.00);
 INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (293, 290, 2, 350.00, 0.00);
+VALUES (34, 8, 5, 70.00, 3.00);
 
--- OrderID 294 has random products
 INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (294, 281, 4, 330.00, 10.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (294, 309, 5, 370.00, 0.00);
+VALUES (35, 9, 3, 65.00, 4.00);
 
--- OrderID 295 has random products
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (295, 305, 2, 290.00, 5.00);
 INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (295, 290, 3, 320.00, 10.00);
+VALUES (36, 10, 2, 55.00, 7.00);
 
--- OrderID 296 has random products
 INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (296, 291, 5, 360.00, 0.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (296, 275, 4, 310.00, 10.00);
+VALUES (37, 11, 4, 50.00, 6.00);
 
--- OrderID 297 has random products
 INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (297, 307, 2, 340.00, 5.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (297, 289, 3, 360.00, 0.00);
+VALUES (38, 12, 3, 60.00, 2.00);
 
--- OrderID 298 has random products
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (298, 278, 1, 300.00, 10.00);
 INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (298, 286, 4, 340.00, 5.00);
+VALUES (39, 13, 5, 65.00, 1.00);
 
--- OrderID 299 has random products
 INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (299, 290, 2, 350.00, 0.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (299, 279, 3, 310.00, 10.00);
+VALUES (40, 14, 2, 50.00, 5.00);
 
--- OrderID 300 has random products
 INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (300, 275, 1, 300.00, 5.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (300, 307, 3, 330.00, 0.00);
+VALUES (41, 15, 4, 55.00, 0.00);
 
--- OrderID 301 has random products
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (301, 312, 5, 320.00, 10.00);
 INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (301, 283, 4, 300.00, 0.00);
+VALUES (42, 16, 3, 60.00, 6.00);
 
--- OrderID 302 has random products
 INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (302, 279, 2, 310.00, 5.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (302, 268, 3, 330.00, 0.00);
+VALUES (43, 17, 2, 70.00, 3.00);
 
--- OrderID 303 has random products
 INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (303, 291, 4, 340.00, 10.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (303, 304, 2, 300.00, 0.00);
+VALUES (44, 18, 1, 65.00, 4.00);
 
--- OrderID 304 has random products
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (304, 289, 5, 350.00, 0.00);
 INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (304, 292, 2, 340.00, 5.00);
+VALUES (45, 19, 5, 55.00, 2.00);
 
--- OrderID 305 has random products
 INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (305, 300, 1, 310.00, 5.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (305, 289, 3, 320.00, 10.00);
+VALUES (46, 20, 3, 60.00, 8.00);
 
--- OrderID 306 has random products
 INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (306, 312, 4, 330.00, 0.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (306, 280, 2, 340.00, 5.00);
+VALUES (47, 21, 2, 70.00, 0.00);
 
--- OrderID 307 has random products
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (307, 306, 1, 350.00, 10.00);
 INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (307, 268, 4, 320.00, 0.00);
+VALUES (48, 22, 4, 50.00, 5.00);
 
--- OrderID 308 has random products
 INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (308, 265, 2, 310.00, 5.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (308, 293, 3, 320.00, 10.00);
+VALUES (49, 23, 1, 65.00, 7.00);
 
--- Continue adding rows for other orders...
--- OrderID 309 has random products
 INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (309, 271, 2, 340.00, 5.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (309, 282, 3, 350.00, 10.00);
+VALUES (50, 24, 3, 55.00, 6.00);
 
--- OrderID 310 has random products
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (310, 283, 4, 330.00, 0.00);
 INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (310, 305, 2, 310.00, 5.00);
+VALUES (51, 25, 4, 60.00, 2.00);
 
--- OrderID 311 has random products
 INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (311, 276, 3, 320.00, 10.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (311, 300, 1, 330.00, 5.00);
+VALUES (52, 26, 3, 65.00, 4.00);
 
--- OrderID 312 has random products
 INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (312, 290, 2, 340.00, 0.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (312, 282, 4, 310.00, 10.00);
+VALUES (53, 1, 5, 50.00, 6.00);
 
--- OrderID 313 has random products
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (313, 279, 3, 320.00, 5.00);
 INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (313, 287, 2, 350.00, 0.00);
+VALUES (54, 2, 2, 55.00, 0.00);
 
--- OrderID 314 has random products
 INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (314, 300, 5, 340.00, 10.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (314, 271, 1, 310.00, 5.00);
+VALUES (55, 3, 1, 60.00, 3.00);
 
--- OrderID 315 has random products
 INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (315, 281, 4, 330.00, 0.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (315, 312, 2, 320.00, 5.00);
+VALUES (56, 4, 4, 70.00, 7.00);
 
--- OrderID 316 has random products
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (316, 302, 3, 350.00, 0.00);
 INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (316, 276, 5, 330.00, 10.00);
+VALUES (57, 5, 3, 50.00, 5.00);
 
--- OrderID 317 has random products
 INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (317, 290, 1, 340.00, 5.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (317, 279, 4, 310.00, 0.00);
+VALUES (58, 6, 2, 55.00, 8.00);
 
--- OrderID 318 has random products
 INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (318, 305, 2, 320.00, 10.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (318, 282, 3, 330.00, 5.00);
+VALUES (59, 7, 4, 60.00, 1.00);
 
--- OrderID 319 has random products
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (319, 276, 4, 340.00, 0.00);
 INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (319, 284, 2, 310.00, 5.00);
+VALUES (60, 8, 3, 65.00, 0.00);
 
--- OrderID 320 has random products
 INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (320, 292, 3, 330.00, 10.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (320, 268, 1, 350.00, 0.00);
+VALUES (61, 9, 2, 50.00, 6.00);
 
--- OrderID 321 has random products
 INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (321, 290, 5, 320.00, 5.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (321, 279, 3, 340.00, 10.00);
+VALUES (62, 10, 1, 55.00, 4.00);
 
--- OrderID 322 has random products
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (322, 300, 2, 310.00, 5.00);
 INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (322, 268, 3, 330.00, 0.00);
+VALUES (63, 11, 5, 60.00, 2.00);
 
--- OrderID 323 has random products
 INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (323, 276, 4, 320.00, 10.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (323, 305, 1, 350.00, 5.00);
+VALUES (64, 12, 3, 70.00, 7.00);
 
--- Continue adding more rows for other orders...
--- OrderID 324 has random products
 INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (324, 292, 2, 330.00, 5.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (324, 271, 4, 320.00, 0.00);
+VALUES (65, 13, 2, 50.00, 0.00);
 
--- OrderID 325 has random products
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (325, 287, 3, 340.00, 10.00);
 INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (325, 268, 2, 330.00, 5.00);
+VALUES (66, 14, 4, 55.00, 1.00);
 
--- OrderID 326 has random products
 INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (326, 279, 4, 320.00, 0.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (326, 284, 2, 350.00, 10.00);
+VALUES (67, 15, 3, 60.00, 5.00);
 
--- OrderID 327 has random products
 INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (327, 300, 3, 330.00, 5.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (327, 282, 4, 320.00, 0.00);
+VALUES (68, 16, 2, 65.00, 3.00);
 
--- OrderID 328 has random products
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (328, 276, 1, 340.00, 10.00);
 INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (328, 290, 3, 310.00, 5.00);
+VALUES (69, 17, 4, 50.00, 6.00);
 
--- OrderID 329 has random products
 INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (329, 303, 5, 350.00, 0.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (329, 276, 2, 330.00, 10.00);
+VALUES (70, 18, 1, 55.00, 2.00);
 
--- OrderID 330 has random products
 INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (330, 268, 4, 320.00, 5.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (330, 300, 3, 340.00, 0.00);
+VALUES (71, 19, 5, 60.00, 0.00);
 
--- OrderID 331 has random products
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (331, 285, 2, 330.00, 10.00);
 INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (331, 276, 1, 350.00, 5.00);
+VALUES (72, 20, 3, 70.00, 4.00);
 
--- OrderID 332 has random products
 INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (332, 283, 3, 340.00, 0.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (332, 292, 2, 320.00, 5.00);
+VALUES (73, 21, 2, 50.00, 5.00);
 
--- OrderID 333 has random products
 INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (333, 290, 4, 330.00, 0.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (333, 276, 3, 340.00, 10.00);
+VALUES (74, 22, 4, 55.00, 7.00);
 
--- OrderID 334 has random products
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (334, 282, 5, 320.00, 0.00);
 INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (334, 271, 2, 330.00, 5.00);
+VALUES (75, 23, 1, 60.00, 6.00);
 
--- OrderID 335 has random products
 INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (335, 284, 1, 340.00, 10.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (335, 290, 3, 350.00, 5.00);
+VALUES (76, 24, 3, 65.00, 3.00);
 
--- OrderID 336 has random products
 INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (336, 283, 4, 320.00, 0.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (336, 276, 2, 330.00, 5.00);
+VALUES (77, 25, 2, 50.00, 5.00);
 
--- OrderID 337 has random products
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (337, 292, 5, 310.00, 0.00);
 INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (337, 276, 3, 350.00, 10.00);
+VALUES (78, 26, 5, 55.00, 0.00);
 
--- OrderID 338 has random products
 INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (338, 282, 2, 340.00, 5.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (338, 279, 1, 330.00, 0.00);
+VALUES (79, 1, 3, 60.00, 1.00);
 
--- OrderID 339 has random products
 INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (339, 290, 3, 350.00, 0.00);
-INSERT INTO OrderDetails (OrderID, ProductID, Quantity, UnitPrice, Discount)
-VALUES (339, 268, 4, 320.00, 10.00);
-
+VALUES (80, 2, 2, 65.00, 6.00);
 
 
--- Inventory data for ProductID 265 to 314
+-- Inventory data for ProductID 1 to 26
 INSERT INTO Inventory (ProductID, Location, StockQuantity, LastRestocked)
-VALUES (265, 'Warehouse A', 120, TO_DATE('2024-01-15', 'YYYY-MM-DD'));
+VALUES (1, 'Warehouse A', 120, TO_DATE('2024-01-15', 'YYYY-MM-DD'));
 INSERT INTO Inventory (ProductID, Location, StockQuantity, LastRestocked)
-VALUES (266, 'Warehouse B', 150, TO_DATE('2024-02-01', 'YYYY-MM-DD'));
+VALUES (2, 'Warehouse B', 150, TO_DATE('2024-02-01', 'YYYY-MM-DD'));
 INSERT INTO Inventory (ProductID, Location, StockQuantity, LastRestocked)
-VALUES (267, 'Warehouse C', 80, TO_DATE('2024-03-10', 'YYYY-MM-DD'));
+VALUES (3, 'Warehouse C', 80, TO_DATE('2024-03-10', 'YYYY-MM-DD'));
 INSERT INTO Inventory (ProductID, Location, StockQuantity, LastRestocked)
-VALUES (268, 'Warehouse A', 200, TO_DATE('2024-01-20', 'YYYY-MM-DD'));
+VALUES (4, 'Warehouse A', 200, TO_DATE('2024-01-20', 'YYYY-MM-DD'));
 INSERT INTO Inventory (ProductID, Location, StockQuantity, LastRestocked)
-VALUES (269, 'Warehouse B', 90, TO_DATE('2024-02-12', 'YYYY-MM-DD'));
+VALUES (5, 'Warehouse B', 90, TO_DATE('2024-02-12', 'YYYY-MM-DD'));
 INSERT INTO Inventory (ProductID, Location, StockQuantity, LastRestocked)
-VALUES (270, 'Warehouse C', 50, TO_DATE('2024-03-15', 'YYYY-MM-DD'));
+VALUES (6, 'Warehouse C', 50, TO_DATE('2024-03-15', 'YYYY-MM-DD'));
 INSERT INTO Inventory (ProductID, Location, StockQuantity, LastRestocked)
-VALUES (271, 'Warehouse A', 110, TO_DATE('2024-01-25', 'YYYY-MM-DD'));
+VALUES (7, 'Warehouse A', 110, TO_DATE('2024-01-25', 'YYYY-MM-DD'));
 INSERT INTO Inventory (ProductID, Location, StockQuantity, LastRestocked)
-VALUES (272, 'Warehouse B', 180, TO_DATE('2024-02-18', 'YYYY-MM-DD'));
+VALUES (8, 'Warehouse B', 180, TO_DATE('2024-02-18', 'YYYY-MM-DD'));
 INSERT INTO Inventory (ProductID, Location, StockQuantity, LastRestocked)
-VALUES (273, 'Warehouse C', 160, TO_DATE('2024-03-20', 'YYYY-MM-DD'));
+VALUES (9, 'Warehouse C', 160, TO_DATE('2024-03-20', 'YYYY-MM-DD'));
 INSERT INTO Inventory (ProductID, Location, StockQuantity, LastRestocked)
-VALUES (274, 'Warehouse A', 130, TO_DATE('2024-01-30', 'YYYY-MM-DD'));
+VALUES (10, 'Warehouse A', 130, TO_DATE('2024-01-30', 'YYYY-MM-DD'));
 INSERT INTO Inventory (ProductID, Location, StockQuantity, LastRestocked)
-VALUES (275, 'Warehouse B', 140, TO_DATE('2024-02-25', 'YYYY-MM-DD'));
+VALUES (11, 'Warehouse B', 140, TO_DATE('2024-02-25', 'YYYY-MM-DD'));
 INSERT INTO Inventory (ProductID, Location, StockQuantity, LastRestocked)
-VALUES (276, 'Warehouse C', 120, TO_DATE('2024-03-05', 'YYYY-MM-DD'));
+VALUES (12, 'Warehouse C', 120, TO_DATE('2024-03-05', 'YYYY-MM-DD'));
 INSERT INTO Inventory (ProductID, Location, StockQuantity, LastRestocked)
-VALUES (277, 'Warehouse A', 200, TO_DATE('2024-01-10', 'YYYY-MM-DD'));
+VALUES (13, 'Warehouse A', 200, TO_DATE('2024-01-10', 'YYYY-MM-DD'));
 INSERT INTO Inventory (ProductID, Location, StockQuantity, LastRestocked)
-VALUES (278, 'Warehouse B', 180, TO_DATE('2024-02-15', 'YYYY-MM-DD'));
+VALUES (14, 'Warehouse B', 180, TO_DATE('2024-02-15', 'YYYY-MM-DD'));
 INSERT INTO Inventory (ProductID, Location, StockQuantity, LastRestocked)
-VALUES (279, 'Warehouse C', 70, TO_DATE('2024-03-25', 'YYYY-MM-DD'));
+VALUES (15, 'Warehouse C', 70, TO_DATE('2024-03-25', 'YYYY-MM-DD'));
 INSERT INTO Inventory (ProductID, Location, StockQuantity, LastRestocked)
-VALUES (280, 'Warehouse A', 90, TO_DATE('2024-01-05', 'YYYY-MM-DD'));
+VALUES (16, 'Warehouse A', 90, TO_DATE('2024-01-05', 'YYYY-MM-DD'));
 INSERT INTO Inventory (ProductID, Location, StockQuantity, LastRestocked)
-VALUES (281, 'Warehouse B', 160, TO_DATE('2024-02-20', 'YYYY-MM-DD'));
+VALUES (17, 'Warehouse B', 160, TO_DATE('2024-02-20', 'YYYY-MM-DD'));
 INSERT INTO Inventory (ProductID, Location, StockQuantity, LastRestocked)
-VALUES (282, 'Warehouse C', 130, TO_DATE('2024-03-30', 'YYYY-MM-DD'));
+VALUES (18, 'Warehouse C', 130, TO_DATE('2024-03-30', 'YYYY-MM-DD'));
 INSERT INTO Inventory (ProductID, Location, StockQuantity, LastRestocked)
-VALUES (283, 'Warehouse A', 150, TO_DATE('2024-01-15', 'YYYY-MM-DD'));
+VALUES (19, 'Warehouse A', 150, TO_DATE('2024-01-15', 'YYYY-MM-DD'));
 INSERT INTO Inventory (ProductID, Location, StockQuantity, LastRestocked)
-VALUES (284, 'Warehouse B', 110, TO_DATE('2024-02-10', 'YYYY-MM-DD'));
+VALUES (20, 'Warehouse B', 110, TO_DATE('2024-02-10', 'YYYY-MM-DD'));
 INSERT INTO Inventory (ProductID, Location, StockQuantity, LastRestocked)
-VALUES (285, 'Warehouse C', 170, TO_DATE('2024-03-01', 'YYYY-MM-DD'));
+VALUES (21, 'Warehouse C', 170, TO_DATE('2024-03-01', 'YYYY-MM-DD'));
 INSERT INTO Inventory (ProductID, Location, StockQuantity, LastRestocked)
-VALUES (286, 'Warehouse A', 140, TO_DATE('2024-01-20', 'YYYY-MM-DD'));
+VALUES (22, 'Warehouse A', 140, TO_DATE('2024-01-20', 'YYYY-MM-DD'));
 INSERT INTO Inventory (ProductID, Location, StockQuantity, LastRestocked)
-VALUES (287, 'Warehouse B', 120, TO_DATE('2024-02-05', 'YYYY-MM-DD'));
+VALUES (23, 'Warehouse B', 120, TO_DATE('2024-02-05', 'YYYY-MM-DD'));
 INSERT INTO Inventory (ProductID, Location, StockQuantity, LastRestocked)
-VALUES (288, 'Warehouse C', 160, TO_DATE('2024-03-10', 'YYYY-MM-DD'));
+VALUES (24, 'Warehouse C', 160, TO_DATE('2024-03-10', 'YYYY-MM-DD'));
 INSERT INTO Inventory (ProductID, Location, StockQuantity, LastRestocked)
-VALUES (289, 'Warehouse A', 100, TO_DATE('2024-01-25', 'YYYY-MM-DD'));
+VALUES (25, 'Warehouse A', 100, TO_DATE('2024-01-25', 'YYYY-MM-DD'));
 INSERT INTO Inventory (ProductID, Location, StockQuantity, LastRestocked)
-VALUES (290, 'Warehouse B', 180, TO_DATE('2024-02-28', 'YYYY-MM-DD'));
-INSERT INTO Inventory (ProductID, Location, StockQuantity, LastRestocked)
-VALUES (291, 'Warehouse C', 120, TO_DATE('2024-03-15', 'YYYY-MM-DD'));
-INSERT INTO Inventory (ProductID, Location, StockQuantity, LastRestocked)
-VALUES (292, 'Warehouse A', 160, TO_DATE('2024-01-30', 'YYYY-MM-DD'));
-INSERT INTO Inventory (ProductID, Location, StockQuantity, LastRestocked)
-VALUES (293, 'Warehouse B', 130, TO_DATE('2024-02-12', 'YYYY-MM-DD'));
-INSERT INTO Inventory (ProductID, Location, StockQuantity, LastRestocked)
-VALUES (300, 'Warehouse C', 110, TO_DATE('2024-03-20', 'YYYY-MM-DD'));
-INSERT INTO Inventory (ProductID, Location, StockQuantity, LastRestocked)
-VALUES (301, 'Warehouse A', 180, TO_DATE('2024-01-10', 'YYYY-MM-DD'));
-INSERT INTO Inventory (ProductID, Location, StockQuantity, LastRestocked)
-VALUES (302, 'Warehouse B', 70, TO_DATE('2024-02-22', 'YYYY-MM-DD'));
-INSERT INTO Inventory (ProductID, Location, StockQuantity, LastRestocked)
-VALUES (303, 'Warehouse C', 150, TO_DATE('2024-03-25', 'YYYY-MM-DD'));
-INSERT INTO Inventory (ProductID, Location, StockQuantity, LastRestocked)
-VALUES (304, 'Warehouse A', 130, TO_DATE('2024-01-20', 'YYYY-MM-DD'));
-INSERT INTO Inventory (ProductID, Location, StockQuantity, LastRestocked)
-VALUES (305, 'Warehouse B', 160, TO_DATE('2024-02-18', 'YYYY-MM-DD'));
-INSERT INTO Inventory (ProductID, Location, StockQuantity, LastRestocked)
-VALUES (306, 'Warehouse C', 140, TO_DATE('2024-03-10', 'YYYY-MM-DD'));
-INSERT INTO Inventory (ProductID, Location, StockQuantity, LastRestocked)
-VALUES (307, 'Warehouse A', 120, TO_DATE('2024-01-12', 'YYYY-MM-DD'));
-INSERT INTO Inventory (ProductID, Location, StockQuantity, LastRestocked)
-VALUES (308, 'Warehouse B', 180, TO_DATE('2024-02-15', 'YYYY-MM-DD'));
-INSERT INTO Inventory (ProductID, Location, StockQuantity, LastRestocked)
-VALUES (309, 'Warehouse C', 100, TO_DATE('2024-03-05', 'YYYY-MM-DD'));
-INSERT INTO Inventory (ProductID, Location, StockQuantity, LastRestocked)
-VALUES (310, 'Warehouse A', 90, TO_DATE('2024-01-30', 'YYYY-MM-DD'));
-INSERT INTO Inventory (ProductID, Location, StockQuantity, LastRestocked)
-VALUES (311, 'Warehouse B', 150, TO_DATE('2024-02-25', 'YYYY-MM-DD'));
-INSERT INTO Inventory (ProductID, Location, StockQuantity, LastRestocked)
-VALUES (312, 'Warehouse C', 130, TO_DATE('2024-03-12', 'YYYY-MM-DD'));
-INSERT INTO Inventory (ProductID, Location, StockQuantity, LastRestocked)
-VALUES (313, 'Warehouse A', 200, TO_DATE('2024-01-18', 'YYYY-MM-DD'));
-INSERT INTO Inventory (ProductID, Location, StockQuantity, LastRestocked)
-VALUES (314, 'Warehouse B', 70, TO_DATE('2024-02-10', 'YYYY-MM-DD'));
+VALUES (26, 'Warehouse B', 180, TO_DATE('2024-02-28', 'YYYY-MM-DD'));
 
-
--- Insert sample data into Employees table
-INSERT INTO Employees (FirstName, LastName, Position, Department, HireDate, Salary)
-VALUES ('John', 'Doe', 'Manager', 'Sales', TO_DATE('2020-01-15', 'YYYY-MM-DD'), 75000.00);
-INSERT INTO Employees (FirstName, LastName, Position, Department, HireDate, Salary)
-VALUES ('Jane', 'Smith', 'Developer', 'IT', TO_DATE('2019-06-10', 'YYYY-MM-DD'), 85000.00);
-INSERT INTO Employees (FirstName, LastName, Position, Department, HireDate, Salary)
-VALUES ('Michael', 'Johnson', 'Designer', 'Marketing', TO_DATE('2018-08-23', 'YYYY-MM-DD'), 65000.00);
-INSERT INTO Employees (FirstName, LastName, Position, Department, HireDate, Salary)
-VALUES ('Emily', 'Davis', 'HR Specialist', 'Human Resources', TO_DATE('2021-04-01', 'YYYY-MM-DD'), 55000.00);
-INSERT INTO Employees (FirstName, LastName, Position, Department, HireDate, Salary)
-VALUES ('David', 'Martinez', 'Data Analyst', 'Finance', TO_DATE('2022-02-18', 'YYYY-MM-DD'), 72000.00);
-INSERT INTO Employees (FirstName, LastName, Position, Department, HireDate, Salary)
-VALUES ('Sarah', 'Garcia', 'Project Manager', 'Operations', TO_DATE('2017-07-14', 'YYYY-MM-DD'), 90000.00);
-INSERT INTO Employees (FirstName, LastName, Position, Department, HireDate, Salary)
-VALUES ('James', 'Lee', 'Developer', 'IT', TO_DATE('2020-03-02', 'YYYY-MM-DD'), 78000.00);
-INSERT INTO Employees (FirstName, LastName, Position, Department, HireDate, Salary)
-VALUES ('Olivia', 'Wilson', 'Marketing Specialist', 'Marketing', TO_DATE('2021-05-20', 'YYYY-MM-DD'), 60000.00);
-INSERT INTO Employees (FirstName, LastName, Position, Department, HireDate, Salary)
-VALUES ('William', 'Taylor', 'Engineer', 'Engineering', TO_DATE('2019-11-30', 'YYYY-MM-DD'), 95000.00);
-INSERT INTO Employees (FirstName, LastName, Position, Department, HireDate, Salary)
-VALUES ('Sophia', 'Moore', 'Customer Support', 'Customer Service', TO_DATE('2022-09-05', 'YYYY-MM-DD'), 48000.00);
-INSERT INTO Employees (FirstName, LastName, Position, Department, HireDate, Salary)
-VALUES ('Alexander', 'Thomas', 'Chief Executive Officer', 'Executive', TO_DATE('2015-12-01', 'YYYY-MM-DD'), 150000.00);
-INSERT INTO Employees (FirstName, LastName, Position, Department, HireDate, Salary)
-VALUES ('Ava', 'Jackson', 'Product Manager', 'Product Development', TO_DATE('2020-10-10', 'YYYY-MM-DD'), 86000.00);
-INSERT INTO Employees (FirstName, LastName, Position, Department, HireDate, Salary)
-VALUES ('Lucas', 'White', 'Financial Advisor', 'Finance', TO_DATE('2021-01-28', 'YYYY-MM-DD'), 71000.00);
-INSERT INTO Employees (FirstName, LastName, Position, Department, HireDate, Salary)
-VALUES ('Mia', 'Harris', 'Sales Representative', 'Sales', TO_DATE('2023-05-16', 'YYYY-MM-DD'), 53000.00);
-INSERT INTO Employees (FirstName, LastName, Position, Department, HireDate, Salary)
-VALUES ('Ethan', 'Clark', 'Marketing Director', 'Marketing', TO_DATE('2016-09-22', 'YYYY-MM-DD'), 100000.00);
-INSERT INTO Employees (FirstName, LastName, Position, Department, HireDate, Salary)
-VALUES ('Isabella', 'Lewis', 'Operations Coordinator', 'Operations', TO_DATE('2022-11-13', 'YYYY-MM-DD'), 60000.00);
-INSERT INTO Employees (FirstName, LastName, Position, Department, HireDate, Salary)
-VALUES ('Henry', 'Walker', 'Customer Support Lead', 'Customer Service', TO_DATE('2021-03-01', 'YYYY-MM-DD'), 55000.00);
-INSERT INTO Employees (FirstName, LastName, Position, Department, HireDate, Salary)
-VALUES ('Charlotte', 'Young', 'Legal Advisor', 'Legal', TO_DATE('2017-02-20', 'YYYY-MM-DD'), 95000.00);
-INSERT INTO Employees (FirstName, LastName, Position, Department, HireDate, Salary)
-VALUES ('Sebastian', 'King', 'Operations Manager', 'Operations', TO_DATE('2018-12-12', 'YYYY-MM-DD'), 95000.00);
-INSERT INTO Employees (FirstName, LastName, Position, Department, HireDate, Salary)
-VALUES ('Amelia', 'Scott', 'Executive Assistant', 'Executive', TO_DATE('2023-01-09', 'YYYY-MM-DD'), 48000.00);
-INSERT INTO Employees (FirstName, LastName, Position, Department, HireDate, Salary)
-VALUES ('Oliver', 'Adams', 'Software Engineer', 'IT', TO_DATE('2020-06-07', 'YYYY-MM-DD'), 82000.00);
--- Insert more sample data into Employees table
-INSERT INTO Employees (FirstName, LastName, Position, Department, HireDate, Salary)
-VALUES ('Mason', 'Perez', 'Business Analyst', 'Strategy', TO_DATE('2020-04-25', 'YYYY-MM-DD'), 75000.00);
-INSERT INTO Employees (FirstName, LastName, Position, Department, HireDate, Salary)
-VALUES ('Liam', 'Roberts', 'Content Manager', 'Marketing', TO_DATE('2019-03-14', 'YYYY-MM-DD'), 65000.00);
-INSERT INTO Employees (FirstName, LastName, Position, Department, HireDate, Salary)
-VALUES ('Ella', 'Gonzalez', 'Social Media Coordinator', 'Marketing', TO_DATE('2021-07-02', 'YYYY-MM-DD'), 53000.00);
-INSERT INTO Employees (FirstName, LastName, Position, Department, HireDate, Salary)
-VALUES ('Benjamin', 'Hernandez', 'Operations Analyst', 'Operations', TO_DATE('2022-01-22', 'YYYY-MM-DD'), 70000.00);
-INSERT INTO Employees (FirstName, LastName, Position, Department, HireDate, Salary)
-VALUES ('Jack', 'Carter', 'Sales Manager', 'Sales', TO_DATE('2018-11-11', 'YYYY-MM-DD'), 90000.00);
-INSERT INTO Employees (FirstName, LastName, Position, Department, HireDate, Salary)
-VALUES ('Grace', 'Mitchell', 'Supply Chain Manager', 'Supply Chain', TO_DATE('2019-02-28', 'YYYY-MM-DD'), 85000.00);
-INSERT INTO Employees (FirstName, LastName, Position, Department, HireDate, Salary)
-VALUES ('Logan', 'Robinson', 'Chief Operating Officer', 'Executive', TO_DATE('2016-01-10', 'YYYY-MM-DD'), 120000.00);
-INSERT INTO Employees (FirstName, LastName, Position, Department, HireDate, Salary)
-VALUES ('Zoe', 'Evans', 'Customer Success Manager', 'Customer Service', TO_DATE('2021-09-03', 'YYYY-MM-DD'), 62000.00);
-INSERT INTO Employees (FirstName, LastName, Position, Department, HireDate, Salary)
-VALUES ('Aiden', 'Walker', 'HR Manager', 'Human Resources', TO_DATE('2017-04-25', 'YYYY-MM-DD'), 75000.00);
-INSERT INTO Employees (FirstName, LastName, Position, Department, HireDate, Salary)
-VALUES ('Chloe', 'Hall', 'Data Scientist', 'IT', TO_DATE('2020-11-01', 'YYYY-MM-DD'), 95000.00);
-INSERT INTO Employees (FirstName, LastName, Position, Department, HireDate, Salary)
-VALUES ('Nathan', 'Allen', 'Accountant', 'Finance', TO_DATE('2018-09-15', 'YYYY-MM-DD'), 67000.00);
-INSERT INTO Employees (FirstName, LastName, Position, Department, HireDate, Salary)
-VALUES ('Lily', 'King', 'Legal Counsel', 'Legal', TO_DATE('2019-05-18', 'YYYY-MM-DD'), 95000.00);
-INSERT INTO Employees (FirstName, LastName, Position, Department, HireDate, Salary)
-VALUES ('Jameson', 'Green', 'IT Specialist', 'IT', TO_DATE('2021-12-09', 'YYYY-MM-DD'), 80000.00);
-INSERT INTO Employees (FirstName, LastName, Position, Department, HireDate, Salary)
-VALUES ('Victoria', 'Martinez', 'Director of Operations', 'Operations', TO_DATE('2017-06-22', 'YYYY-MM-DD'), 110000.00);
-INSERT INTO Employees (FirstName, LastName, Position, Department, HireDate, Salary)
-VALUES ('Mia', 'Clark', 'Operations Analyst', 'Operations', TO_DATE('2022-08-04', 'YYYY-MM-DD'), 70000.00);
-INSERT INTO Employees (FirstName, LastName, Position, Department, HireDate, Salary)
-VALUES ('Matthew', 'Davis', 'Engineer', 'Engineering', TO_DATE('2020-02-14', 'YYYY-MM-DD'), 90000.00);
-INSERT INTO Employees (FirstName, LastName, Position, Department, HireDate, Salary)
-VALUES ('Harper', 'Young', 'Business Development Manager', 'Sales', TO_DATE('2021-01-17', 'YYYY-MM-DD'), 75000.00);
-INSERT INTO Employees (FirstName, LastName, Position, Department, HireDate, Salary)
-VALUES ('Evelyn', 'Thomas', 'Corporate Trainer', 'HR', TO_DATE('2019-07-10', 'YYYY-MM-DD'), 58000.00);
-INSERT INTO Employees (FirstName, LastName, Position, Department, HireDate, Salary)
-VALUES ('Owen', 'Lopez', 'Product Designer', 'Product Development', TO_DATE('2021-03-23', 'YYYY-MM-DD'), 78000.00);
-INSERT INTO Employees (FirstName, LastName, Position, Department, HireDate, Salary)
-VALUES ('Mason', 'Graham', 'Operations Coordinator', 'Operations', TO_DATE('2021-11-14', 'YYYY-MM-DD'), 62000.00);
-
--- Transactions table data
--- The following inserts will cover TransactionIDs for each OrderID from 242 to 351.
 
 INSERT INTO Transactions (OrderID, PaymentDate, PaymentMethod, Amount) VALUES
-(242, TO_TIMESTAMP('2024-01-06 10:10:00', 'YYYY-MM-DD HH24:MI:SS'), 'Credit Card', 500.00),
-(243, TO_TIMESTAMP('2024-01-06 10:40:00', 'YYYY-MM-DD HH24:MI:SS'), 'PayPal', 300.00),
-(244, TO_TIMESTAMP('2024-01-06 11:10:00', 'YYYY-MM-DD HH24:MI:SS'), 'Credit Card', 250.00),
-(245, TO_TIMESTAMP('2024-01-06 11:40:00', 'YYYY-MM-DD HH24:MI:SS'), 'Bank Transfer', 400.00),
-(246, TO_TIMESTAMP('2024-01-06 12:10:00', 'YYYY-MM-DD HH24:MI:SS'), 'Credit Card', 175.60),
-(247, TO_TIMESTAMP('2024-01-06 12:40:00', 'YYYY-MM-DD HH24:MI:SS'), 'Debit Card', 220.00),
-(248, TO_TIMESTAMP('2024-01-06 13:00:00', 'YYYY-MM-DD HH24:MI:SS'), 'PayPal', 130.75),
-(249, TO_TIMESTAMP('2024-01-06 13:30:00', 'YYYY-MM-DD HH24:MI:SS'), 'Credit Card', 360.00),
-(250, TO_TIMESTAMP('2024-01-06 14:00:00', 'YYYY-MM-DD HH24:MI:SS'), 'Bank Transfer', 300.00),
-(251, TO_TIMESTAMP('2024-01-06 14:30:00', 'YYYY-MM-DD HH24:MI:SS'), 'Credit Card', 550.50),
-(252, TO_TIMESTAMP('2024-01-06 15:00:00', 'YYYY-MM-DD HH24:MI:SS'), 'PayPal', 480.00),
-(253, TO_TIMESTAMP('2024-01-06 15:30:00', 'YYYY-MM-DD HH24:MI:SS'), 'Debit Card', 210.00),
-(254, TO_TIMESTAMP('2024-01-06 16:00:00', 'YYYY-MM-DD HH24:MI:SS'), 'Credit Card', 370.00),
-(255, TO_TIMESTAMP('2024-01-06 16:30:00', 'YYYY-MM-DD HH24:MI:SS'), 'PayPal', 320.00),
-(256, TO_TIMESTAMP('2024-01-06 17:00:00', 'YYYY-MM-DD HH24:MI:SS'), 'Bank Transfer', 440.00),
-(257, TO_TIMESTAMP('2024-01-06 17:30:00', 'YYYY-MM-DD HH24:MI:SS'), 'Credit Card', 310.00),
-(258, TO_TIMESTAMP('2024-01-06 18:00:00', 'YYYY-MM-DD HH24:MI:SS'), 'Debit Card', 250.00),
-(259, TO_TIMESTAMP('2024-01-06 18:30:00', 'YYYY-MM-DD HH24:MI:SS'), 'PayPal', 210.00),
-(260, TO_TIMESTAMP('2024-01-06 19:00:00', 'YYYY-MM-DD HH24:MI:SS'), 'Credit Card', 380.00),
-(261, TO_TIMESTAMP('2024-01-06 19:30:00', 'YYYY-MM-DD HH24:MI:SS'), 'Bank Transfer', 460.00),
-(262, TO_TIMESTAMP('2024-01-06 20:00:00', 'YYYY-MM-DD HH24:MI:SS'), 'PayPal', 250.00),
-(263, TO_TIMESTAMP('2024-01-06 20:30:00', 'YYYY-MM-DD HH24:MI:SS'), 'Credit Card', 480.00),
-(264, TO_TIMESTAMP('2024-01-06 21:00:00', 'YYYY-MM-DD HH24:MI:SS'), 'Debit Card', 370.00),
-(265, TO_TIMESTAMP('2024-01-06 21:30:00', 'YYYY-MM-DD HH24:MI:SS'), 'Bank Transfer', 200.00),
-(266, TO_TIMESTAMP('2024-01-06 22:00:00', 'YYYY-MM-DD HH24:MI:SS'), 'Credit Card', 540.00),
-(267, TO_TIMESTAMP('2024-01-06 22:30:00', 'YYYY-MM-DD HH24:MI:SS'), 'PayPal', 320.00),
-(268, TO_TIMESTAMP('2024-01-06 23:00:00', 'YYYY-MM-DD HH24:MI:SS'), 'Debit Card', 150.00),
-(269, TO_TIMESTAMP('2024-01-06 23:30:00', 'YYYY-MM-DD HH24:MI:SS'), 'Credit Card', 290.00),
-(270, TO_TIMESTAMP('2024-01-07 00:00:00', 'YYYY-MM-DD HH24:MI:SS'), 'PayPal', 310.00),
-(271, TO_TIMESTAMP('2024-01-07 00:30:00', 'YYYY-MM-DD HH24:MI:SS'), 'Credit Card', 220.00),
-(272, TO_TIMESTAMP('2024-01-07 01:00:00', 'YYYY-MM-DD HH24:MI:SS'), 'Debit Card', 150.00),
-(273, TO_TIMESTAMP('2024-01-07 01:30:00', 'YYYY-MM-DD HH24:MI:SS'), 'Bank Transfer', 480.00),
-(274, TO_TIMESTAMP('2024-01-07 02:00:00', 'YYYY-MM-DD HH24:MI:SS'), 'PayPal', 360.00),
-(275, TO_TIMESTAMP('2024-01-07 02:30:00', 'YYYY-MM-DD HH24:MI:SS'), 'Credit Card', 500.00),
-(276, TO_TIMESTAMP('2024-01-07 03:00:00', 'YYYY-MM-DD HH24:MI:SS'), 'Bank Transfer', 400.00),
-(277, TO_TIMESTAMP('2024-01-07 03:30:00', 'YYYY-MM-DD HH24:MI:SS'), 'PayPal', 210.00),
-(278, TO_TIMESTAMP('2024-01-07 04:00:00', 'YYYY-MM-DD HH24:MI:SS'), 'Debit Card', 380.00),
-(279, TO_TIMESTAMP('2024-01-07 04:30:00', 'YYYY-MM-DD HH24:MI:SS'), 'Credit Card', 290.00),
-(280, TO_TIMESTAMP('2024-01-07 05:00:00', 'YYYY-MM-DD HH24:MI:SS'), 'PayPal', 340.00),
-(281, TO_TIMESTAMP('2024-01-07 05:30:00', 'YYYY-MM-DD HH24:MI:SS'), 'Debit Card', 230.00),
-(282, TO_TIMESTAMP('2024-01-07 06:00:00', 'YYYY-MM-DD HH24:MI:SS'), 'Bank Transfer', 360.00),
-(283, TO_TIMESTAMP('2024-01-07 06:30:00', 'YYYY-MM-DD HH24:MI:SS'), 'Credit Card', 250.00),
-(284, TO_TIMESTAMP('2024-01-07 07:00:00', 'YYYY-MM-DD HH24:MI:SS'), 'PayPal', 500.00),
-(285, TO_TIMESTAMP('2024-01-07 07:30:00', 'YYYY-MM-DD HH24:MI:SS'), 'Debit Card', 150.00),
-(286, TO_TIMESTAMP('2024-01-07 08:00:00', 'YYYY-MM-DD HH24:MI:SS'), 'Bank Transfer', 450.00),
-(287, TO_TIMESTAMP('2024-01-07 08:30:00', 'YYYY-MM-DD HH24:MI:SS'), 'Credit Card', 300.00),
-(288, TO_TIMESTAMP('2024-01-07 09:00:00', 'YYYY-MM-DD HH24:MI:SS'), 'PayPal', 400.00),
-(289, TO_TIMESTAMP('2024-01-07 09:30:00', 'YYYY-MM-DD HH24:MI:SS'), 'Debit Card', 220.00),
-(290, TO_TIMESTAMP('2024-01-07 10:00:00', 'YYYY-MM-DD HH24:MI:SS'), 'Credit Card', 510.00),
-(291, TO_TIMESTAMP('2024-01-07 10:30:00', 'YYYY-MM-DD HH24:MI:SS'), 'Bank Transfer', 380.00),
-(292, TO_TIMESTAMP('2024-01-07 11:00:00', 'YYYY-MM-DD HH24:MI:SS'), 'PayPal', 320.00),
-(293, TO_TIMESTAMP('2024-01-07 11:30:00', 'YYYY-MM-DD HH24:MI:SS'), 'Debit Card', 180.00),
-(294, TO_TIMESTAMP('2024-01-07 12:00:00', 'YYYY-MM-DD HH24:MI:SS'), 'Credit Card', 220.00),
-(295, TO_TIMESTAMP('2024-01-07 12:30:00', 'YYYY-MM-DD HH24:MI:SS'), 'PayPal', 260.00),
-(296, TO_TIMESTAMP('2024-01-07 13:00:00', 'YYYY-MM-DD HH24:MI:SS'), 'Bank Transfer', 300.00),
-(297, TO_TIMESTAMP('2024-01-07 13:30:00', 'YYYY-MM-DD HH24:MI:SS'), 'Credit Card', 350.00),
-(298, TO_TIMESTAMP('2024-01-07 14:00:00', 'YYYY-MM-DD HH24:MI:SS'), 'Debit Card', 250.00),
-(299, TO_TIMESTAMP('2024-01-07 14:30:00', 'YYYY-MM-DD HH24:MI:SS'), 'PayPal', 190.00),
-(300, TO_TIMESTAMP('2024-01-07 15:00:00', 'YYYY-MM-DD HH24:MI:SS'), 'Credit Card', 420.00),
-(301, TO_TIMESTAMP('2024-01-07 15:30:00', 'YYYY-MM-DD HH24:MI:SS'), 'Bank Transfer', 500.00),
-(302, TO_TIMESTAMP('2024-01-07 16:00:00', 'YYYY-MM-DD HH24:MI:SS'), 'Debit Card', 280.00),
-(303, TO_TIMESTAMP('2024-01-07 16:30:00', 'YYYY-MM-DD HH24:MI:SS'), 'PayPal', 310.00),
-(304, TO_TIMESTAMP('2024-01-07 17:00:00', 'YYYY-MM-DD HH24:MI:SS'), 'Credit Card', 350.00),
-(305, TO_TIMESTAMP('2024-01-07 17:30:00', 'YYYY-MM-DD HH24:MI:SS'), 'Bank Transfer', 240.00),
-(306, TO_TIMESTAMP('2024-01-07 18:00:00', 'YYYY-MM-DD HH24:MI:SS'), 'PayPal', 180.00),
-(307, TO_TIMESTAMP('2024-01-07 18:30:00', 'YYYY-MM-DD HH24:MI:SS'), 'Credit Card', 420.00),
-(308, TO_TIMESTAMP('2024-01-07 19:00:00', 'YYYY-MM-DD HH24:MI:SS'), 'Debit Card', 300.00),
-(309, TO_TIMESTAMP('2024-01-07 19:30:00', 'YYYY-MM-DD HH24:MI:SS'), 'Bank Transfer', 270.00),
-(310, TO_TIMESTAMP('2024-01-07 20:00:00', 'YYYY-MM-DD HH24:MI:SS'), 'PayPal', 350.00),
-(311, TO_TIMESTAMP('2024-01-07 20:30:00', 'YYYY-MM-DD HH24:MI:SS'), 'Credit Card', 400.00),
-(312, TO_TIMESTAMP('2024-01-07 21:00:00', 'YYYY-MM-DD HH24:MI:SS'), 'Debit Card', 220.00),
-(313, TO_TIMESTAMP('2024-01-07 21:30:00', 'YYYY-MM-DD HH24:MI:SS'), 'Bank Transfer', 310.00),
-(314, TO_TIMESTAMP('2024-01-07 22:00:00', 'YYYY-MM-DD HH24:MI:SS'), 'Credit Card', 500.00);
-
+(1, TO_TIMESTAMP('2024-01-06 10:10:00', 'YYYY-MM-DD HH24:MI:SS'), 'Credit Card', 500.00),
+(2, TO_TIMESTAMP('2024-01-06 10:40:00', 'YYYY-MM-DD HH24:MI:SS'), 'PayPal', 300.00),
+(3, TO_TIMESTAMP('2024-01-06 11:10:00', 'YYYY-MM-DD HH24:MI:SS'), 'Credit Card', 250.00),
+(4, TO_TIMESTAMP('2024-01-06 11:40:00', 'YYYY-MM-DD HH24:MI:SS'), 'Bank Transfer', 400.00),
+(5, TO_TIMESTAMP('2024-01-06 12:10:00', 'YYYY-MM-DD HH24:MI:SS'), 'Credit Card', 175.60),
+(6, TO_TIMESTAMP('2024-01-06 12:40:00', 'YYYY-MM-DD HH24:MI:SS'), 'Debit Card', 220.00),
+(7, TO_TIMESTAMP('2024-01-06 13:00:00', 'YYYY-MM-DD HH24:MI:SS'), 'PayPal', 130.75),
+(8, TO_TIMESTAMP('2024-01-06 13:30:00', 'YYYY-MM-DD HH24:MI:SS'), 'Credit Card', 360.00),
+(9, TO_TIMESTAMP('2024-01-06 14:00:00', 'YYYY-MM-DD HH24:MI:SS'), 'Bank Transfer', 300.00),
+(10, TO_TIMESTAMP('2024-01-06 14:30:00', 'YYYY-MM-DD HH24:MI:SS'), 'Credit Card', 550.50),
+(11, TO_TIMESTAMP('2024-01-06 15:00:00', 'YYYY-MM-DD HH24:MI:SS'), 'PayPal', 480.00),
+(12, TO_TIMESTAMP('2024-01-06 15:30:00', 'YYYY-MM-DD HH24:MI:SS'), 'Debit Card', 210.00),
+(13, TO_TIMESTAMP('2024-01-06 16:00:00', 'YYYY-MM-DD HH24:MI:SS'), 'Credit Card', 370.00),
+(14, TO_TIMESTAMP('2024-01-06 16:30:00', 'YYYY-MM-DD HH24:MI:SS'), 'PayPal', 320.00),
+(15, TO_TIMESTAMP('2024-01-06 17:00:00', 'YYYY-MM-DD HH24:MI:SS'), 'Bank Transfer', 440.00),
+(16, TO_TIMESTAMP('2024-01-06 17:30:00', 'YYYY-MM-DD HH24:MI:SS'), 'Credit Card', 310.00),
+(17, TO_TIMESTAMP('2024-01-06 18:00:00', 'YYYY-MM-DD HH24:MI:SS'), 'Debit Card', 250.00),
+(18, TO_TIMESTAMP('2024-01-06 18:30:00', 'YYYY-MM-DD HH24:MI:SS'), 'PayPal', 210.00),
+(19, TO_TIMESTAMP('2024-01-06 19:00:00', 'YYYY-MM-DD HH24:MI:SS'), 'Credit Card', 380.00),
+(20, TO_TIMESTAMP('2024-01-06 19:30:00', 'YYYY-MM-DD HH24:MI:SS'), 'Bank Transfer', 460.00),
+(21, TO_TIMESTAMP('2024-01-06 20:00:00', 'YYYY-MM-DD HH24:MI:SS'), 'PayPal', 250.00),
+(22, TO_TIMESTAMP('2024-01-06 20:30:00', 'YYYY-MM-DD HH24:MI:SS'), 'Credit Card', 480.00),
+(23, TO_TIMESTAMP('2024-01-06 21:00:00', 'YYYY-MM-DD HH24:MI:SS'), 'Debit Card', 370.00),
+(24, TO_TIMESTAMP('2024-01-06 21:30:00', 'YYYY-MM-DD HH24:MI:SS'), 'Bank Transfer', 200.00),
+(25, TO_TIMESTAMP('2024-01-06 22:00:00', 'YYYY-MM-DD HH24:MI:SS'), 'Credit Card', 540.00),
+(26, TO_TIMESTAMP('2024-01-06 22:30:00', 'YYYY-MM-DD HH24:MI:SS'), 'PayPal', 320.00);
+commit
