@@ -940,30 +940,55 @@ VALUES (26, 'Warehouse B', 180, TO_DATE('2024-02-28', 'YYYY-MM-DD'));
 
 
 INSERT INTO Transactions (OrderID, PaymentDate, PaymentMethod, Amount) VALUES
-(1, TO_TIMESTAMP('2024-01-06 10:10:00', 'YYYY-MM-DD HH24:MI:SS'), 'Credit Card', 500.00),
-(2, TO_TIMESTAMP('2024-01-06 10:40:00', 'YYYY-MM-DD HH24:MI:SS'), 'PayPal', 300.00),
-(3, TO_TIMESTAMP('2024-01-06 11:10:00', 'YYYY-MM-DD HH24:MI:SS'), 'Credit Card', 250.00),
-(4, TO_TIMESTAMP('2024-01-06 11:40:00', 'YYYY-MM-DD HH24:MI:SS'), 'Bank Transfer', 400.00),
-(5, TO_TIMESTAMP('2024-01-06 12:10:00', 'YYYY-MM-DD HH24:MI:SS'), 'Credit Card', 175.60),
-(6, TO_TIMESTAMP('2024-01-06 12:40:00', 'YYYY-MM-DD HH24:MI:SS'), 'Debit Card', 220.00),
-(7, TO_TIMESTAMP('2024-01-06 13:00:00', 'YYYY-MM-DD HH24:MI:SS'), 'PayPal', 130.75),
-(8, TO_TIMESTAMP('2024-01-06 13:30:00', 'YYYY-MM-DD HH24:MI:SS'), 'Credit Card', 360.00),
-(9, TO_TIMESTAMP('2024-01-06 14:00:00', 'YYYY-MM-DD HH24:MI:SS'), 'Bank Transfer', 300.00),
-(10, TO_TIMESTAMP('2024-01-06 14:30:00', 'YYYY-MM-DD HH24:MI:SS'), 'Credit Card', 550.50),
-(11, TO_TIMESTAMP('2024-01-06 15:00:00', 'YYYY-MM-DD HH24:MI:SS'), 'PayPal', 480.00),
-(12, TO_TIMESTAMP('2024-01-06 15:30:00', 'YYYY-MM-DD HH24:MI:SS'), 'Debit Card', 210.00),
-(13, TO_TIMESTAMP('2024-01-06 16:00:00', 'YYYY-MM-DD HH24:MI:SS'), 'Credit Card', 370.00),
-(14, TO_TIMESTAMP('2024-01-06 16:30:00', 'YYYY-MM-DD HH24:MI:SS'), 'PayPal', 320.00),
-(15, TO_TIMESTAMP('2024-01-06 17:00:00', 'YYYY-MM-DD HH24:MI:SS'), 'Bank Transfer', 440.00),
-(16, TO_TIMESTAMP('2024-01-06 17:30:00', 'YYYY-MM-DD HH24:MI:SS'), 'Credit Card', 310.00),
-(17, TO_TIMESTAMP('2024-01-06 18:00:00', 'YYYY-MM-DD HH24:MI:SS'), 'Debit Card', 250.00),
-(18, TO_TIMESTAMP('2024-01-06 18:30:00', 'YYYY-MM-DD HH24:MI:SS'), 'PayPal', 210.00),
-(19, TO_TIMESTAMP('2024-01-06 19:00:00', 'YYYY-MM-DD HH24:MI:SS'), 'Credit Card', 380.00),
-(20, TO_TIMESTAMP('2024-01-06 19:30:00', 'YYYY-MM-DD HH24:MI:SS'), 'Bank Transfer', 460.00),
-(21, TO_TIMESTAMP('2024-01-06 20:00:00', 'YYYY-MM-DD HH24:MI:SS'), 'PayPal', 250.00),
-(22, TO_TIMESTAMP('2024-01-06 20:30:00', 'YYYY-MM-DD HH24:MI:SS'), 'Credit Card', 480.00),
-(23, TO_TIMESTAMP('2024-01-06 21:00:00', 'YYYY-MM-DD HH24:MI:SS'), 'Debit Card', 370.00),
-(24, TO_TIMESTAMP('2024-01-06 21:30:00', 'YYYY-MM-DD HH24:MI:SS'), 'Bank Transfer', 200.00),
-(25, TO_TIMESTAMP('2024-01-06 22:00:00', 'YYYY-MM-DD HH24:MI:SS'), 'Credit Card', 540.00),
+(1, TO_TIMESTAMP('2024-01-06 10:10:00', 'YYYY-MM-DD HH24:MI:SS'), 'Credit Card', 500.00);
+INSERT INTO Transactions (OrderID, PaymentDate, PaymentMethod, Amount) VALUES
+(2, TO_TIMESTAMP('2024-01-06 10:40:00', 'YYYY-MM-DD HH24:MI:SS'), 'PayPal', 300.00);
+INSERT INTO Transactions (OrderID, PaymentDate, PaymentMethod, Amount) VALUES
+(3, TO_TIMESTAMP('2024-01-06 11:10:00', 'YYYY-MM-DD HH24:MI:SS'), 'Credit Card', 250.00);
+INSERT INTO Transactions (OrderID, PaymentDate, PaymentMethod, Amount) VALUES
+(4, TO_TIMESTAMP('2024-01-06 11:40:00', 'YYYY-MM-DD HH24:MI:SS'), 'Bank Transfer', 400.00);
+INSERT INTO Transactions (OrderID, PaymentDate, PaymentMethod, Amount) VALUES
+(5, TO_TIMESTAMP('2024-01-06 12:10:00', 'YYYY-MM-DD HH24:MI:SS'), 'Credit Card', 175.60);
+INSERT INTO Transactions (OrderID, PaymentDate, PaymentMethod, Amount) VALUES
+(6, TO_TIMESTAMP('2024-01-06 12:40:00', 'YYYY-MM-DD HH24:MI:SS'), 'Debit Card', 220.00);
+INSERT INTO Transactions (OrderID, PaymentDate, PaymentMethod, Amount) VALUES
+(7, TO_TIMESTAMP('2024-01-06 13:00:00', 'YYYY-MM-DD HH24:MI:SS'), 'PayPal', 130.75);
+INSERT INTO Transactions (OrderID, PaymentDate, PaymentMethod, Amount) VALUES
+(8, TO_TIMESTAMP('2024-01-06 13:30:00', 'YYYY-MM-DD HH24:MI:SS'), 'Credit Card', 360.00);
+INSERT INTO Transactions (OrderID, PaymentDate, PaymentMethod, Amount) VALUES
+(9, TO_TIMESTAMP('2024-01-06 14:00:00', 'YYYY-MM-DD HH24:MI:SS'), 'Bank Transfer', 300.00);
+INSERT INTO Transactions (OrderID, PaymentDate, PaymentMethod, Amount) VALUES
+(10, TO_TIMESTAMP('2024-01-06 14:30:00', 'YYYY-MM-DD HH24:MI:SS'), 'Credit Card', 550.50);
+INSERT INTO Transactions (OrderID, PaymentDate, PaymentMethod, Amount) VALUES
+(11, TO_TIMESTAMP('2024-01-06 15:00:00', 'YYYY-MM-DD HH24:MI:SS'), 'PayPal', 480.00);
+INSERT INTO Transactions (OrderID, PaymentDate, PaymentMethod, Amount) VALUES
+(12, TO_TIMESTAMP('2024-01-06 15:30:00', 'YYYY-MM-DD HH24:MI:SS'), 'Debit Card', 210.00);
+INSERT INTO Transactions (OrderID, PaymentDate, PaymentMethod, Amount) VALUES
+(13, TO_TIMESTAMP('2024-01-06 16:00:00', 'YYYY-MM-DD HH24:MI:SS'), 'Credit Card', 370.00);
+INSERT INTO Transactions (OrderID, PaymentDate, PaymentMethod, Amount) VALUES
+(14, TO_TIMESTAMP('2024-01-06 16:30:00', 'YYYY-MM-DD HH24:MI:SS'), 'PayPal', 320.00);
+INSERT INTO Transactions (OrderID, PaymentDate, PaymentMethod, Amount) VALUES
+(15, TO_TIMESTAMP('2024-01-06 17:00:00', 'YYYY-MM-DD HH24:MI:SS'), 'Bank Transfer', 440.00);
+INSERT INTO Transactions (OrderID, PaymentDate, PaymentMethod, Amount) VALUES
+(16, TO_TIMESTAMP('2024-01-06 17:30:00', 'YYYY-MM-DD HH24:MI:SS'), 'Credit Card', 310.00);
+INSERT INTO Transactions (OrderID, PaymentDate, PaymentMethod, Amount) VALUES
+(17, TO_TIMESTAMP('2024-01-06 18:00:00', 'YYYY-MM-DD HH24:MI:SS'), 'Debit Card', 250.00);
+INSERT INTO Transactions (OrderID, PaymentDate, PaymentMethod, Amount) VALUES
+(18, TO_TIMESTAMP('2024-01-06 18:30:00', 'YYYY-MM-DD HH24:MI:SS'), 'PayPal', 210.00);
+INSERT INTO Transactions (OrderID, PaymentDate, PaymentMethod, Amount) VALUES
+(19, TO_TIMESTAMP('2024-01-06 19:00:00', 'YYYY-MM-DD HH24:MI:SS'), 'Credit Card', 380.00);
+INSERT INTO Transactions (OrderID, PaymentDate, PaymentMethod, Amount) VALUES
+(20, TO_TIMESTAMP('2024-01-06 19:30:00', 'YYYY-MM-DD HH24:MI:SS'), 'Bank Transfer', 460.00);
+INSERT INTO Transactions (OrderID, PaymentDate, PaymentMethod, Amount) VALUES
+(21, TO_TIMESTAMP('2024-01-06 20:00:00', 'YYYY-MM-DD HH24:MI:SS'), 'PayPal', 250.00);
+INSERT INTO Transactions (OrderID, PaymentDate, PaymentMethod, Amount) VALUES
+(22, TO_TIMESTAMP('2024-01-06 20:30:00', 'YYYY-MM-DD HH24:MI:SS'), 'Credit Card', 480.00);
+INSERT INTO Transactions (OrderID, PaymentDate, PaymentMethod, Amount) VALUES
+(23, TO_TIMESTAMP('2024-01-06 21:00:00', 'YYYY-MM-DD HH24:MI:SS'), 'Debit Card', 370.00);
+INSERT INTO Transactions (OrderID, PaymentDate, PaymentMethod, Amount) VALUES
+(24, TO_TIMESTAMP('2024-01-06 21:30:00', 'YYYY-MM-DD HH24:MI:SS'), 'Bank Transfer', 200.00);
+INSERT INTO Transactions (OrderID, PaymentDate, PaymentMethod, Amount) VALUES
+(25, TO_TIMESTAMP('2024-01-06 22:00:00', 'YYYY-MM-DD HH24:MI:SS'), 'Credit Card', 540.00);
+INSERT INTO Transactions (OrderID, PaymentDate, PaymentMethod, Amount) VALUES
 (26, TO_TIMESTAMP('2024-01-06 22:30:00', 'YYYY-MM-DD HH24:MI:SS'), 'PayPal', 320.00);
 commit;
