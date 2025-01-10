@@ -966,4 +966,4 @@ INSERT INTO Transactions (OrderID, PaymentDate, PaymentMethod, Amount) VALUES
 (24, TO_TIMESTAMP('2024-01-06 21:30:00', 'YYYY-MM-DD HH24:MI:SS'), 'Bank Transfer', 200.00),
 (25, TO_TIMESTAMP('2024-01-06 22:00:00', 'YYYY-MM-DD HH24:MI:SS'), 'Credit Card', 540.00),
 (26, TO_TIMESTAMP('2024-01-06 22:30:00', 'YYYY-MM-DD HH24:MI:SS'), 'PayPal', 320.00);
-commit
+commit;
