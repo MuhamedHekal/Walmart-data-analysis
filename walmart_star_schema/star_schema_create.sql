@@ -13,3 +13,5 @@ GRANT CREATE MATERIALIZED VIEW,
   TO walmart_star_schema;
 
 ALTER USER walmart_star_schema QUOTA UNLIMITED ON USERS;
+
+--drop user walmart_star_schema CASCADE;
