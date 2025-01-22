@@ -22,4 +22,50 @@ day_name_max as(
     )
 select distinct day_name, First_value(prodcut_name)over(partition by day_name order by how_many_time DESC) as hight_product
 ,First_value(how_many_time)over(partition by day_name order by how_many_time DESC) as purchase_count
-from day_name_max
+from day_name_max;
+
+
+--  total sales over the time 
+SELECT 
+    d.Year, d.Month, d.Day, d.Hour, 
+    SUM(t.TotalAmount) AS TotalSales
+FROM 
+    Transaction_Fact t
+JOIN 
+    Date_Dim d ON t.DateID = d.ROW_ID
+GROUP BY 
+    d.Year, d.Month, d.Day, d.Hour
+ORDER BY 
+    TotalSales DESC;
+
+
+-- total spent for each customer
+SELECT 
+    c.FirstName, c.LastName, 
+    SUM(t.TotalAmount) AS TotalSpent
+FROM 
+    Transaction_Fact t
+JOIN 
+    Customer_Dim c ON t.CustomerID = c.ROW_ID
+GROUP BY 
+    c.FirstName, c.LastName
+ORDER BY 
+    TotalSpent DESC;
+
+-- total revenue for 2 pairs
+SELECT 
+    p1.ProductName AS Product1, 
+    p2.ProductName AS Product2, 
+    SUM(t1.TotalAmount + t2.TotalAmount) AS TotalRevenue
+FROM 
+    Transaction_Fact t1
+JOIN 
+    Transaction_Fact t2 ON t1.OrderID = t2.OrderID AND t1.ProductID < t2.ProductID
+JOIN 
+    Product_Dim p1 ON t1.ProductID = p1.ROW_ID
+JOIN 
+    Product_Dim p2 ON t2.ProductID = p2.ROW_ID
+GROUP BY 
+    p1.ProductName, p2.ProductName
+ORDER BY 
+    TotalRevenue DESC;
