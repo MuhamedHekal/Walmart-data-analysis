@@ -1,0 +1,8 @@
+SupplierID,SupplierName,ContactName,Phone,Email,Address,ProductCategory
+1,Tech Supplies Co.,Alice Johnson,123-456-7890,alice@techsupplies.com,"123 Tech Street, Silicon Valley, CA",Electronics
+2,Fashion Trendz,Bob Smith,987-654-3210,bob@fashiontrendz.com,"456 Fashion Blvd, Los Angeles, CA",Clothing
+3,Book Haven,Carla Green,555-666-7777,carla@bookhaven.com,"789 Read Rd, Chicago, IL",Books
+4,Fresh Grocer,David Lee,666-777-8888,david@freshgrocer.com,"101 Fresh St, New York, NY",Groceries
+5,Toy Land,Eve White,444-555-6666,eve@toyland.com,"202 Toy St, Dallas, TX",Toys
+6,Home Comforts,Frank Black,333-444-5555,frank@homecomforts.com,"303 Comfort Rd, Miami, FL",Furniture
+7,SportsGear World,Grace Blue,222-333-4444,grace@sportsgear.com,"404 Sports Ave, Denver, CO",Sports
