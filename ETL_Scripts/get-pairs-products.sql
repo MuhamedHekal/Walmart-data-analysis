@@ -11,6 +11,7 @@ WITH ProductPairs AS (
     ON
         p1.ORDERID = p2.orderID
         AND p1.ProductId < p2.ProductId
+        and p1.CATEGORYID = p2.CATEGORYID
 ),
 RankedPairs AS (
     SELECT DISTINCT
