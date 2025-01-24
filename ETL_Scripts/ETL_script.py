@@ -90,6 +90,7 @@ fact_table = pd.merge(fact_table, dim_df[['SUPPLIERID', 'ROW_ID']],
                       left_on='SUPPLIERID', right_on='SUPPLIERID', how='inner')
 fact_table.rename(columns={"ROW_ID": "supplier_id"}, inplace=True)
 
+fact_table['TOTALAMOUNT'] = fact_table['QUANTITY'] * fact_table['UNITPRICE']
 df = fact_table[['Product_id','Date_id','Cus_id','Cat_id','supplier_id','ORDERID','QUANTITY','UNITPRICE','TOTALAMOUNT']]
 # load fact data to walmart_star_schema
 insert_data_frame(walmart_star_cursor, fact_insert, df)
