@@ -11,7 +11,6 @@ Walmart-data-analysis/
 ├── Queries/                    # SQL queries for data analysis
 ├── walmart_star_schema/        # Schema design for the data warehouse
 ├── Walmart Data Analysis.pdf   # Project report detailing the analysis
-├── .gitignore                  # Git ignore file
 └── README.md                   # Project documentation
 ```
 
