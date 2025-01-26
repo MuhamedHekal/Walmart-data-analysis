@@ -1,1 +1,2 @@
-# Walmart-data-analysis
+# Walmart Data Analysis Project
+

@@ -21,7 +21,7 @@ CREATE TABLE Customers (
     FirstName VARCHAR2(50) NOT NULL,
     LastName VARCHAR2(50) NOT NULL,
     Email VARCHAR2(100),
-    Phone VARCHAR2(15),
+    Phone VARCHAR2(30),
     Address CLOB,
     MembershipDate DATE NOT NULL
 );

@@ -1,9 +1,14 @@
 --What are the top-selling products in each category?
-with TOPPRDUCT as (select cd.CATEGORYNAME, pd.PRODUCTNAME , f.TOTALAMOUNT,
-Dense_Rank()OVER(PARTITION by f.CATEGORYID order by f.TOTALAMOUNT) as rank
+with TOPPRDUCT as (select cd.CATEGORYNAME, pd.PRODUCTNAME , sum(f.TOTALAMOUNT) as TOTALAMOUNT 
 from TRANSACTION_FACT f, CATEGORY_DIM cd , PRODUCT_DIM pd 
-WHERE f.CATEGORYID = cd.ROW_ID and f.PRODUCTID = pd.row_id)
-SELECT CATEGORYNAME, PRODUCTNAME, TOTALAMOUNT from TOPPRDUCT
+WHERE f.CATEGORYID = cd.ROW_ID and f.PRODUCTID = pd.row_id
+group by cd.CATEGORYNAME, pd.PRODUCTNAME),
+
+rankedprod as (SELECT distinct CATEGORYNAME, PRODUCTNAME, TOTALAMOUNT ,
+Dense_Rank()OVER(PARTITION by CATEGORYNAME order by TOTALAMOUNT DESC) as rank
+from TOPPRDUCT)
+select CATEGORYNAME , PRODUCTNAME, TOTALAMOUNT
+from rankedprod 
 where rank =1;
 
 
@@ -20,7 +25,7 @@ day_name_max as(
     select distinct day_name,maximun as prodcut_name,  count(maximun)over(PARTITION by day_name, maximun) as how_many_time
     from MaximunProduct
     )
-select distinct day_name, First_value(prodcut_name)over(partition by day_name order by how_many_time DESC) as hight_product
+select distinct day_name, First_value(prodcut_name)over(partition by day_name order by how_many_time DESC) as highest_product
 ,First_value(how_many_time)over(partition by day_name order by how_many_time DESC) as purchase_count
 from day_name_max;
 
@@ -60,7 +65,7 @@ SELECT
 FROM 
     Transaction_Fact t1
 JOIN 
-    Transaction_Fact t2 ON t1.OrderID = t2.OrderID AND t1.ProductID < t2.ProductID
+    Transaction_Fact t2 ON t1.OrderID = t2.OrderID AND t1.ProductID < t2.ProductID and t1.CATEGORYID = t2.CATEGORYID
 JOIN 
     Product_Dim p1 ON t1.ProductID = p1.ROW_ID
 JOIN 

@@ -1,0 +1,3 @@
+-run star_schema_create.sql file first as a sysuser on database engine
+-after you create the user run the star_DDL.sql file on the created user
+-go to ETL_Scripts file and run StarSchema_ETL_script for transfer the data from Operational database to the star Schema
