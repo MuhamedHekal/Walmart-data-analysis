@@ -1,76 +1,117 @@
 --What are the top-selling products in each category?
-with TOPPRDUCT as (select cd.CATEGORYNAME, pd.PRODUCTNAME , sum(f.TOTALAMOUNT) as TOTALAMOUNT 
-from TRANSACTION_FACT f, CATEGORY_DIM cd , PRODUCT_DIM pd 
-WHERE f.CATEGORYID = cd.ROW_ID and f.PRODUCTID = pd.row_id
-group by cd.CATEGORYNAME, pd.PRODUCTNAME),
-
-rankedprod as (SELECT distinct CATEGORYNAME, PRODUCTNAME, TOTALAMOUNT ,
-Dense_Rank()OVER(PARTITION by CATEGORYNAME order by TOTALAMOUNT DESC) as rank
-from TOPPRDUCT)
-select CATEGORYNAME , PRODUCTNAME, TOTALAMOUNT
-from rankedprod 
-where rank =1;
+with topproduct as (
+   select cd.categoryname,
+          pd.productname,
+          sum(f.totalamount) as totalamount
+     from transaction_fact f,
+          category_dim cd,
+          product_dim pd
+    where f.categoryid = cd.row_id
+      and f.productid = pd.row_id
+    group by cd.categoryname,
+             pd.productname
+)
+select distinct categoryname,
+                first_value(productname)
+                over(partition by categoryname
+                     order by totalamount desc
+                ) as topsellingproduct,
+                first_value(totalamount)
+                over(partition by categoryname
+                     order by totalamount desc
+                ) as totalamount
+  from topproduct;
 
 
 --• How do purchasing patterns change based on time or customer demographics?
-with CountProduct as (select to_char(dd.TIME_STAMP,'dd-mm-yyyy') as "date",
-    to_char(dd.TIME_STAMP,'day') as day_name, pd.PRODUCTNAME, f.TOTALAMOUNT, 
-    count(pd.PRODUCTNAME)over(PARTITION by to_char(dd.TIME_STAMP,'dd-mm-yyyy')) as highest_product
-from Transaction_fact f , PRODUCT_DIM pd , DATE_DIM dd
-where f.DATEID = dd.row_id and f.PRODUCTID = pd.row_id),
-MaximunProduct as (SELECT distinct "date",day_name,
-        First_value(PRODUCTNAME)over(partition by "date" order by highest_product DESC ) as maximun
-from CountProduct),
-day_name_max as(
-    select distinct day_name,maximun as prodcut_name,  count(maximun)over(PARTITION by day_name, maximun) as how_many_time
-    from MaximunProduct
-    )
-select distinct day_name, First_value(prodcut_name)over(partition by day_name order by how_many_time DESC) as highest_product
-,First_value(how_many_time)over(partition by day_name order by how_many_time DESC) as purchase_count
-from day_name_max;
+with countproduct as (
+   select to_char(
+      dd.time_stamp,
+      'dd-mm-yyyy'
+   ) as "date",
+          to_char(
+             dd.time_stamp,
+             'day'
+          ) as day_name,
+          pd.productname,
+          f.totalamount,
+          count(pd.productname)
+          over(partition by to_char(
+             dd.time_stamp,
+             'dd-mm-yyyy'
+          )) as highest_product
+     from transaction_fact f,
+          product_dim pd,
+          date_dim dd
+    where f.dateid = dd.row_id
+      and f.productid = pd.row_id
+),maximunproduct as (
+   select distinct "date",
+                   day_name,
+                   first_value(productname)
+                   over(partition by "date"
+                        order by highest_product desc
+                   ) as maximun
+     from countproduct
+),day_name_max as (
+   select distinct day_name,
+                   maximun as prodcut_name,
+                   count(maximun)
+                   over(partition by day_name,
+                                     maximun) as how_many_time
+     from maximunproduct
+)
+select distinct day_name,
+                first_value(prodcut_name)
+                over(partition by day_name
+                     order by how_many_time desc
+                ) as hight_product,
+                first_value(how_many_time)
+                over(partition by day_name
+                     order by how_many_time desc
+                ) as purchase_count
+  from day_name_max;
 
 
 --  total sales over the time 
-SELECT 
-    d.Year, d.Month, d.Day, d.Hour, 
-    SUM(t.TotalAmount) AS TotalSales
-FROM 
-    Transaction_Fact t
-JOIN 
-    Date_Dim d ON t.DateID = d.ROW_ID
-GROUP BY 
-    d.Year, d.Month, d.Day, d.Hour
-ORDER BY 
-    TotalSales DESC;
+select d.year,
+       d.month,
+       d.day,
+       d.hour,
+       sum(t.totalamount) as totalsales
+  from transaction_fact t
+  join date_dim d
+on t.dateid = d.row_id
+ group by d.year,
+          d.month,
+          d.day,
+          d.hour
+ order by totalsales desc;
 
 
 -- total spent for each customer
-SELECT 
-    c.FirstName, c.LastName, 
-    SUM(t.TotalAmount) AS TotalSpent
-FROM 
-    Transaction_Fact t
-JOIN 
-    Customer_Dim c ON t.CustomerID = c.ROW_ID
-GROUP BY 
-    c.FirstName, c.LastName
-ORDER BY 
-    TotalSpent DESC;
+select c.firstname,
+       c.lastname,
+       sum(t.totalamount) as totalspent
+  from transaction_fact t
+  join customer_dim c
+on t.customerid = c.row_id
+ group by c.firstname,
+          c.lastname
+ order by totalspent desc;
 
 -- total revenue for 2 pairs
-SELECT 
-    p1.ProductName AS Product1, 
-    p2.ProductName AS Product2, 
-    SUM(t1.TotalAmount + t2.TotalAmount) AS TotalRevenue
-FROM 
-    Transaction_Fact t1
-JOIN 
-    Transaction_Fact t2 ON t1.OrderID = t2.OrderID AND t1.ProductID < t2.ProductID and t1.CATEGORYID = t2.CATEGORYID
-JOIN 
-    Product_Dim p1 ON t1.ProductID = p1.ROW_ID
-JOIN 
-    Product_Dim p2 ON t2.ProductID = p2.ROW_ID
-GROUP BY 
-    p1.ProductName, p2.ProductName
-ORDER BY 
-    TotalRevenue DESC;
+select p1.productname as product1,
+       p2.productname as product2,
+       sum(t1.totalamount + t2.totalamount) as totalrevenue
+  from transaction_fact t1
+  join transaction_fact t2
+on t1.orderid = t2.orderid
+   and t1.productid < t2.productid
+  join product_dim p1
+on t1.productid = p1.row_id
+  join product_dim p2
+on t2.productid = p2.row_id
+ group by p1.productname,
+          p2.productname
+ order by totalrevenue desc;
